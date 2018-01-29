@@ -1,0 +1,13 @@
+body {
+background: lightsalmon;
+}
+.webring{
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  background: white;
+}
+hr{
+  width: 500px;
+  margin: 2em 0;
+}
