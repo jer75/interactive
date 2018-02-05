@@ -1,21 +1,21 @@
 #text-column {
-  max-width: 550px;
+  max-width: 1600px;
   margin: 0 auto;
 }
 
 h1 {
 	font-family: Georgia, Times, "Times New Roman", serif;
-	font-size: 68px;
+	font-size: 300px;
 	font-style: normal;
 	font-variant: small-caps;
 	font-weight: 700;
-	line-height: 49px;
+
 }
 
 body {
   background: #D6EAF8;
   font-family: Georgia, Times, "Times New Roman", serif;
-  font-size: 30px;
+  font-size: 100px;
   color: #FFA003;
   -webkit-font-smoothing: antialiased;
 }
