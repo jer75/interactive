@@ -1,0 +1,33 @@
+#text-column {
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+h1 {
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 63px;
+	font-style: normal;
+	font-variant: small-caps;
+	font-weight: 700;
+	line-height: 49px;
+}
+
+body {
+  background: #D6EAF8;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-size: 38px;
+  color: #FFA003;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: #D6EAF8;
+}
+
+a:hover {
+  color: #EAF2F8;
+}
+
+a:visited {
+  color: white;
+}
