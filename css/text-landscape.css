@@ -35,3 +35,10 @@ a:visited {
 h3 {
   font-size: 20px;
 }
+
+#back-button a {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  color: #85C1E9;
+  -webkit-font-smoothing: antialiased;
+}
