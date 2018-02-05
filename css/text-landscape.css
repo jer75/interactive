@@ -5,7 +5,7 @@
 
 h1 {
 	font-family: Georgia, Times, "Times New Roman", serif;
-	font-size: 63px;
+	font-size: 68px;
 	font-style: normal;
 	font-variant: small-caps;
 	font-weight: 700;
@@ -14,8 +14,8 @@ h1 {
 
 body {
   background: #D6EAF8;
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-  font-size: 38px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
   color: #FFA003;
   -webkit-font-smoothing: antialiased;
 }
@@ -25,9 +25,13 @@ a {
 }
 
 a:hover {
-  color: #EAF2F8;
+  color: #D6EAF8;
 }
 
 a:visited {
-  color: white;
+  color: #EAF2F8;
+}
+
+h3 {
+  font-size: 20px;
 }
