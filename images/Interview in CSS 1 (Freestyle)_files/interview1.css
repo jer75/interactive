@@ -1,0 +1,17 @@
+
+body {
+  background: #F5B7B1;
+  font-size: 24px;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#text-column {
+  max-width: 950px;
+  margin: 0 auto;
+}
