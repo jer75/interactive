@@ -4,7 +4,7 @@ body {
 }
 
 .canvas {
-	width: 900px;
+	max-width: 1200px;
 	height: 556px;
 	margin: 100px auto;
 	background: #52BE80;
@@ -15,7 +15,7 @@ body {
     width: 200px;
     height: 400px;
     background: #7B0B28;
-    top: 156px;
+    top: 256px;
     left: 600px;
     position: absolute;
 }
@@ -25,7 +25,7 @@ body {
     height: 20px;
     background: gold;
     border-radius: 200px;
-    top: 347px;
+    top: 447px;
     left: 756px;
     position: absolute;
     z-index: +2;
@@ -34,7 +34,7 @@ body {
     width: 150px;
     height: 100px;
     background: #6E2C00;
-    top: 456px;
+    top: 556px;
     left: 224px;
     position: absolute;
     z-index: +2;
@@ -44,7 +44,7 @@ body {
     width: 150px;
     height: 10px;
     background: #85929E;
-    top: 495px;
+    top: 595px;
     left: 224px;
     position: absolute;
     z-index: +2;
@@ -53,7 +53,7 @@ body {
     width: 15px;
     height: 15px;
     background: gold;
-    top: 493px;
+    top: 593px;
     left: 291px;
     position: absolute;
     z-index: +2;
