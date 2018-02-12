@@ -40,6 +40,35 @@ body {
     z-index: +2;
 }
 
+.chest2 {
+    width: 150px;
+    height: 100px;
+    background: #6E2C00;
+    top: 564px;
+    left: 500px;
+    position: absolute;
+    z-index: +2;
+}
+
+.metalwork2 {
+    width: 150px;
+    height: 10px;
+    background: #85929E;
+    top: 597px;
+    left: 500px;
+    position: absolute;
+    z-index: +2;
+}
+.latch2 {
+    width: 15px;
+    height: 15px;
+    background: gold;
+    top: 595px;
+    left: 567px;
+    position: absolute;
+    z-index: +2;
+}
+
 #window {
     width: 200px;
     height: 200px;
