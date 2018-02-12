@@ -7,10 +7,29 @@
 }
 
 body {
+  max-width: 800px;
 	position: absolute;
   animation: color-shift 30s infinite;
   animation-direction: alternate-alternate-reverse;
 }
+
+@keyframes glowing {
+  0% { box-shadow: 0 0 100px #c4a300; }
+  40% { box-shadow: 0 0 180px #c4a300; }
+  60% { box-shadow: 0 0 180px #c4a300; }
+  100% { box-shadow: 0 0 100px #c4a300; }
+}
+.sun {
+  width: 150vh;
+  height: 150vh;
+  background: gold;
+  border-radius: 150vh;
+  margin-left: 3em;
+  position: relative;
+  animation: glowing 30s infinite;
+  animation-direction: alternate-reverse;
+}
+
 @keyframes verticalflow {
   0%   { transform: translateY(2%); }
  100% { transform: translateY(-100%); }
@@ -22,24 +41,20 @@ body {
  animation: verticalflow 28s linear infinite;
 }
 
-h1 {
-  color: #99E4FF;
-  opacity: .5;
-  z-index: +2;
-	font-family: Baskerville;
-	font-size: 60vh;
-	font-weight: 700;
-	line-height: ;
-  position: relative;
+.credits p {
+  font-size: 20em;
+  margin:  0 auto;
+
 }
 
 p {
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   color: black;
-	font-size: 10vh;
+	font-size: 8vh;
 	font-weight: 400;
 	line-height: auto;
   position: relative;
+  margin: 0 auto;
 }
 
 a:link  {

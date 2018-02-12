@@ -14,8 +14,7 @@ body {
   height: 180vh;
   background: gold;
   border-radius: 180vh;
-  top: 139px;
-  left: 180px;
+  margin: 0 auto;
   position: relative;
   animation: glowing 4s infinite;
   animation-direction: alternate-reverse;
