@@ -1,0 +1,58 @@
+@keyframes  color-shift {
+  from { background-color: #FFFB00;}
+  to { background-color: #FF8E00;}
+  to { background-color: #FF4C00;}
+  to { background-color: #FF0000;}
+
+}
+
+body {
+	position: absolute;
+  animation: color-shift 30s infinite;
+  animation-direction: alternate-alternate-reverse;
+}
+@keyframes verticalflow {
+  0%   { transform: translateY(2%); }
+ 100% { transform: translateY(-100%); }
+}
+
+#lyrics {
+ margin: 0px;
+ text-align: center;
+ animation: verticalflow 28s linear infinite;
+}
+
+h1 {
+  color: #99E4FF;
+  opacity: .5;
+  z-index: +2;
+	font-family: Baskerville;
+	font-size: 60vh;
+	font-weight: 700;
+	line-height: ;
+  position: relative;
+}
+
+p {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  color: black;
+	font-size: 10vh;
+	font-weight: 400;
+	line-height: auto;
+  position: relative;
+}
+
+a:link  {
+  text-decoration: none;
+  color: #99E4FF;
+}
+
+a:visited  {
+  text-decoration: none;
+  color: #D3F3FF;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #99E4FF;
+}

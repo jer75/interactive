@@ -10,14 +10,13 @@ body {
   100% { box-shadow: 0 0 100px #c4a300; }
 }
 .moon {
-    width: 700px;
-    height: 700px;
+    width: 15vh;
+    height: 15vh;
     background: gold;
-    border-radius: 900px;
+    border-radius: 15vh;
     top: 139px;
     left: 180px;
-    position: absolute;
-    z-index: +1;
+    position: relative;
     animation: glowing 4s infinite;
     animation-direction: alternate-reverse;
 }

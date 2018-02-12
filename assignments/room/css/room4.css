@@ -53,25 +53,26 @@ body{
 
 .three {
 	font-family: Georgia;
-	font-size: 800px;
-	font-style: normal;
-	font-variant: normal;
+	font-size: 10vh;
 	font-weight: 700;
-	line-height: 500px;
-  color: black;
+	line-height: 10vh;
   top:50px;
   z-index: +3;
-  position: absolute;
+  position: relative;
 }
 
-a {
+
+a:link  {
+  text-decoration: none;
   color: #FADBD8;
 }
 
-a: hover{
-  color: #CFB3F5;
+a:visited  {
+  text-decoration: none;
+  color: #B3F5F2;
 }
 
-a: visited{
-color: #B3F5F2;
+a:hover {
+  text-decoration: none;
+  color: #CFB3F5;
 }

@@ -1,0 +1,30 @@
+
+body {
+	background: #1A0734  ;
+}
+
+@keyframes glowing {
+  0% { box-shadow: 0 0 80px #c4a300; }
+  40% { box-shadow: 0 0 140px #c4a300; }
+  60% { box-shadow: 0 0 160px #c4a300; }
+  100% { box-shadow: 0 0 100px #c4a300; }
+}
+.sun {
+  width: 180vh;
+  height: 180vh;
+  background: gold;
+  border-radius: 180vh;
+  top: 139px;
+  left: 180px;
+  position: relative;
+  animation: glowing 4s infinite;
+  animation-direction: alternate-reverse;
+}
+
+.moon {
+    background: #FCF3CF;
+    width: 20vh;
+    height: 20vh;
+    border-radius: 20vh;
+    position: absolute;
+}
