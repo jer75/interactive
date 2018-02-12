@@ -4,14 +4,14 @@ body{
 
 @keyframes  color-shift {
   from { background: #85C1E9; }
-  to { background: red; }
+  to { background: yellow; }
 }
 
 .canvas {
-	min-width: 900px;
+	width: 100%;
 	min-height: 1500px;
 	background: #85C1E9;
-	position: relative;
+	position: absolute;
   animation: color-shift 10s infinite;
   animation-direction: alternate;
 }
