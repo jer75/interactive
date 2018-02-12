@@ -1,0 +1,77 @@
+body{
+  background: black;
+}
+
+@keyframes  color-shift {
+  from { background: #85C1E9; }
+  to { background: red; }
+}
+
+.canvas {
+	min-width: 900px;
+	min-height: 1500px;
+	background: #85C1E9;
+	position: relative;
+  animation: color-shift 10s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes  color-shift2 {
+  from { background: #F1C40F; }
+  to { background: #8E44AD; }
+}
+.one {
+  width: 100%;
+	height: 1200px;
+	background: #F1C40F;
+  top: 100px;
+  left: 100px;
+  margin: 100px;
+	position: absolute;
+  animation: color-shift2 2s infinite;
+  animation-direction: alternate;
+  z-index: +2;
+}
+
+@keyframes  color-shift3 {
+  from { background: #FF0000; }
+  to { background: #CFB3F5;}
+  to { background: #48CF32; }
+}
+
+.two {
+  width: 100%;
+	height: 5000px;
+	background: #FF0000;
+  top: 100px;
+  left: 40px;
+	position: absolute;
+  animation: color-shift3 .5s infinite;
+  animation-direction: alternate-reverse;
+  z-index: +1;
+}
+
+.three {
+	font-family: Georgia;
+	font-size: 800px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 500px;
+  color: black;
+  top:50px;
+  z-index: +3;
+  position: absolute;
+}
+
+a {
+  color: #FADBD8;
+}
+
+a: hover{
+  color: #CFB3F5;
+}
+
+a: visited{
+color: #B3F5F2;
+}

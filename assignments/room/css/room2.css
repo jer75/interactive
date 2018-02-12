@@ -1,0 +1,99 @@
+
+body {
+	background: black;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: #4E0E6A;
+	position: relative;
+}
+
+.chest {
+    width: 150px;
+    height: 100px;
+    background: #6E2C00;
+    top: 556px;
+    left: 224px;
+    position: absolute;
+    z-index: +2;
+}
+
+.metalwork {
+    width: 150px;
+    height: 10px;
+    background: #85929E;
+    top: 585px;
+    left: 224px;
+    position: absolute;
+    z-index: +2;
+}
+.latch {
+    width: 15px;
+    height: 15px;
+    background: gold;
+    top: 583px;
+    left: 291px;
+    position: absolute;
+    z-index: +2;
+}
+
+#window {
+    width: 200px;
+    height: 200px;
+    background: #FFFF5F;
+    top: 121px;
+    left: 300px;
+    position: absolute;
+}
+
+#glass {
+    width: 180px;
+    height: 180px;
+    background: #D6DBDF;
+    top: 131px;
+    left: 309px;
+    position: absolute;
+}
+
+#window-v {
+    width: 10px;
+    height: 200px;
+    background: #FFFF5F;
+    top: 121px;
+    left: 396px;
+    position: absolute;
+}
+
+#window-h {
+    width: 10px;
+    height: 200px;
+    background: #FFFF5F;
+    top: 122px;
+    left: 395px;
+    position: absolute;
+    transform: rotate(90deg);
+}
+
+@keyframes glowing {
+  0% { box-shadow: 0 0 -10px #c4a300; }
+  40% { box-shadow: 0 0 20px #c4a300; }
+  60% { box-shadow: 0 0 20px #c4a300; }
+  100% { box-shadow: 0 0 -10px #c4a300; }
+}
+
+#moon {
+    width: 70px;
+    height: 70px;
+    background: gold;
+    border-radius: 200px;
+    top: 139px;
+    left: 318px;
+    position: absolute;
+    z-index: +1;
+    animation: glowing 4s infinite;
+    animation-timing-function: : ease-in-out;
+    animation-direction: alternate;
+}

@@ -1,12 +1,3 @@
-h1 {
-	font-family: "Courier New";
-	font-size: 49px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 700;
-	line-height: 53.9px;
-  z-index: +1;
-}
 
 body {
 	background: black;
@@ -20,11 +11,22 @@ body {
 	position: relative;
 }
 
-#candle-wax {
-    width: 110px;
-    height: 115px;
+#door {
+    width: 200px;
+    height: 400px;
     background: #7B0B28;
-    top: 259px;
-    left: 22px;
+    top: 156px;
+    left: 600px;
     position: absolute;
+}
+
+#handle {
+    width: 20px;
+    height: 20px;
+    background: gold;
+    border-radius: 200px;
+    top: 347px;
+    left: 756px;
+    position: absolute;
+    z-index: +2;
 }
