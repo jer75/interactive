@@ -1,0 +1,30 @@
+h1 {
+	font-family: "Courier New";
+	font-size: 49px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 53.9px;
+  z-index: +1;
+}
+
+body {
+	background: black;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: #52BE80;
+	position: relative;
+}
+
+#candle-wax {
+    width: 110px;
+    height: 115px;
+    background: #7B0B28;
+    top: 259px;
+    left: 22px;
+    position: absolute;
+}
