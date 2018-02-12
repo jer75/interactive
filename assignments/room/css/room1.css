@@ -30,3 +30,31 @@ body {
     position: absolute;
     z-index: +2;
 }
+.chest {
+    width: 150px;
+    height: 100px;
+    background: #6E2C00;
+    top: 456px;
+    left: 224px;
+    position: absolute;
+    z-index: +2;
+}
+
+.metalwork {
+    width: 150px;
+    height: 10px;
+    background: #85929E;
+    top: 495px;
+    left: 224px;
+    position: absolute;
+    z-index: +2;
+}
+.latch {
+    width: 15px;
+    height: 15px;
+    background: gold;
+    top: 493px;
+    left: 291px;
+    position: absolute;
+    z-index: +2;
+}
