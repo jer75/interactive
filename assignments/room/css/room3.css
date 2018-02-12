@@ -1,0 +1,23 @@
+
+body {
+	background: #1A0734  ;
+}
+
+@keyframes glowing {
+  0% { box-shadow: 0 0 -10px #c4a300; }
+  40% { box-shadow: 0 0 20px #c4a300; }
+  60% { box-shadow: 0 0 20px #c4a300; }
+  100% { box-shadow: 0 0 -10px #c4a300; }
+}
+.moon {
+    width: 700px;
+    height: 700px;
+    background: gold;
+    border-radius: 900px;
+    top: 139px;
+    left: 318px;
+    position: absolute;
+    z-index: +1;
+    animation: glowing 4s infinite;
+    animation-direction: alternate-reverse;
+}
