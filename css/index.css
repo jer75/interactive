@@ -1,5 +1,9 @@
 body {
-background: #FCF3CF;
+max-width: 600px;
+background: #F5B041;
+font-family: larabiefont, monospace;
+font-style: normal;
+font-weight: 400;
 }
 .webring{
   position: fixed;
@@ -10,4 +14,36 @@ background: #FCF3CF;
 hr{
   width: 500px;
   margin: 2em 0;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+cursor {
+  cursor: text;
+}
+
+body a:link {
+  text-decoration: none;
+  color: #350073;
+
+}
+
+body a:hover {
+    text-decoration: none;
+    color: #350073;
+    font-size:45px;
+    font-size-adjust: 3.5px;
+    transition-duration: 3.5s;
+}
+
+ body a:visited {
+  text-decoration: none;
+  color: #350073;
+  font-style: oblique;
+}
+
+ul {
+  list-style-type: none;
 }
