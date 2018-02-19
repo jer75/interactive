@@ -305,3 +305,27 @@ body {
 		top: 229px;
 		position: absolute;
 }
+
+a {
+		font-family: Futura;
+		font-size: 48px;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 700;
+		line-height: 24px;
+}
+
+a:link {
+	text-decoration: none;
+	color: #27AE60;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #27AE60;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #27AE60;
+}
