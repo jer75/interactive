@@ -125,5 +125,183 @@ body {
     left: 27px;
     position: absolute;
     opacity: .75;
-    transform: rotate(7deg);
+    transform: rotate(5deg);
+}
+
+#bud {
+    width: 50px;
+    height: 50px;
+    background: #7B241C;
+		border-radius: 100%;
+		border-top-right-radius: 50%;
+		border-bottom-right-radius: 50%;
+    top: 419px;
+    right: 206px;
+    position: absolute;
+		transform: rotate(5deg);
+    z-index: +2;
+}
+
+#leaf-1 {
+    width: 45px;
+    height: 20px;
+    background: #196F3D;
+    border-radius: 50% / 50%;
+    top: 412px;
+    right: 322px;
+    position: absolute;
+		transform: rotate(-8deg);
+
+}
+
+#leaf-2 {
+    width: 45px;
+    height: 20px;
+    background: #196F3D;
+    border-radius: 50% / 50%;
+    top: 427px;
+    right: 391px;
+    position: absolute;
+		transform: rotate(10deg);
+
+}
+
+#leaf-3 {
+    width: 45px;
+    height: 20px;
+    background: #196F3D;
+    border-radius: 50% / 50%;
+    top: 398px;
+    right: 491px;
+    position: absolute;
+		transform: rotate(-9deg);
+
+}
+
+.canvas-2 {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: #052F00;
+	position: relative;
+}
+
+#plastic-wrap-2 {
+    width: 0;
+    height: 0;
+    border-left: 680px solid transparent;
+    border-right: 105px solid transparent;
+    border-bottom: 55px solid white;
+    position: absolute;
+    top: 291px;
+    left: 31px;
+    opacity: 0.5;
+		transform: rotate(2deg);
+}
+
+#stem-2 {
+    width: 645px;
+    height: 11px;
+    background: darkgreen;
+    top: 328px;
+    left: 95px;
+    position: absolute;
+}
+
+#bud-2 {
+    width: 50px;
+    height: 50px;
+    background: #7B241C;
+		border-radius: 100%;
+		border-top-right-radius: 50%;
+		border-bottom-right-radius: 50%;
+    top: 307px;
+    right: 159px;
+    position: absolute;
+    z-index: +2;
+}
+
+#leaf-4 {
+    width: 45px;
+    height: 20px;
+    background: #196F3D;
+    border-radius: 50% / 50%;
+    top: 312px;
+    right: 322px;
+    position: absolute;
+		transform: rotate(-8deg);
+
+}
+
+#leaf-5 {
+    width: 45px;
+    height: 20px;
+    background: #196F3D;
+    border-radius: 50% / 50%;
+    top: 327px;
+    right: 391px;
+    position: absolute;
+		transform: rotate(10deg);
+
+}
+
+#leaf-6 {
+    width: 45px;
+    height: 20px;
+    background: #196F3D;
+    border-radius: 50% / 50%;
+    top: 313px;
+    right: 491px;
+    position: absolute;
+		transform: rotate(-9deg);
+
+}
+
+#orange-2 {
+    width: 130px;
+    height: 130px;
+    background: orange;
+    border-radius: 200px;
+    top: 246px;
+    left: 78px;
+    position: absolute;
+    z-index: +2;
+}
+
+#kiwi-2 {
+    width: 100px;
+    height: 63px;
+    background: #6A6004;
+    border-radius: 200px;
+    top: 337px;
+    right: 379px;
+    position: absolute;
+		z-index: +2;
+}
+
+@keyframes glowing {
+  0% { box-shadow: 0 0 80px #c4a300; }
+  100% { box-shadow: 0 0 200px #c4a300; }
+}
+
+#light {
+    width: 170px;
+    height: 150px;
+    background: yellow;
+    border-radius: 250px;
+    top: 229px;
+    right: 485px;
+    position: absolute;
+		z-index: +2;
+		animation: glowing 4s infinite;
+		animation-direction: alternate-reverse;
+}
+
+#box {
+		width: 150px;
+		height: 180px;
+		background: #5A502C;
+		right: 219px;
+		top: 229px;
+		position: absolute;
 }
