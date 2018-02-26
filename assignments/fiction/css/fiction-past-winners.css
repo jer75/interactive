@@ -90,6 +90,7 @@ a {
     left: 300px;
     position: absolute;
     animation: move 2s infinite alternate-reverse;
+    z-index: +2;
 
 }
 
