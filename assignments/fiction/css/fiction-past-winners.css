@@ -27,7 +27,7 @@ a {
     left: 600px;
     position: absolute;
     animation: move 2.2s infinite alternate-reverse;
-    z-index: +2;
+    z-index: +1;
 
 }
 
