@@ -3,6 +3,10 @@ body {
 	background: #1A0734  ;
 }
 
+a {
+  text-decoration: none;
+}
+
 @keyframes glowing {
   0% { box-shadow: 0 0 80px #c4a300; }
   40% { box-shadow: 0 0 140px #c4a300; }
