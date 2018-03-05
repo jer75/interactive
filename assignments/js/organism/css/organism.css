@@ -1,0 +1,66 @@
+
+@keyframes move
+{
+25%  {top:0;left:100%; width:200px;height:150px;}
+50%  {top:100%;right:0; width:200px; height: 250px;}
+75% {bottom:0; right:100%; width: 350px; height:250px;}
+100% {bottom:100%; left:0; width: 300px; height:350px;}
+}
+
+.germ {
+    background: #D6EAF8;
+    width: 25vh;
+    height: 20vh;
+    border-radius: 20vh;
+    bottom: 100px;
+    right: 80px;
+    position: absolute;
+    animation: move 5s infinite alternate-reverse;
+    z-index: +3;
+
+}
+.germ:hover
+{
+   -webkit-animation-play-state: paused;
+   -moz-animation-play-state: paused;
+   -o-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+
+.germ2 {
+    background: green;
+    width: 25vh;
+    height: 20vh;
+    border-radius: 20vh;
+    bottom: 100px;
+    right: 80px;
+    position: absolute;
+    animation: move 5s infinite alternate-reverse;
+    z-index: +2;
+}
+.germ2:hover
+{
+   -webkit-animation-play-state: paused;
+   -moz-animation-play-state: paused;
+   -o-animation-play-state: paused;
+    animation-play-state: paused;
+}
+.germ3 {
+    background: pink;
+    width: 25vh;
+    height: 20vh;
+    border-radius: 20vh;
+    bottom: 100px;
+    right: 80px;
+    position: absolute;
+    animation: move 5s infinite alternate-reverse;
+    z-index: +1;
+}
+.germ3:hover
+{
+   -webkit-animation-play-state: paused;
+   -moz-animation-play-state: paused;
+   -o-animation-play-state: paused;
+    animation-play-state: paused;
+}
