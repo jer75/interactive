@@ -16,7 +16,7 @@
     right: 80px;
     position: absolute;
     animation: move 5s infinite alternate-reverse;
-    z-index: +3;
+    z-index: +12;
 
 }
 .germ:hover
@@ -37,7 +37,7 @@
     right: 80px;
     position: absolute;
     animation: move 5s infinite alternate-reverse;
-    z-index: +2;
+    z-index: +11;
 }
 .germ2:hover
 {
@@ -55,9 +55,181 @@
     right: 80px;
     position: absolute;
     animation: move 5s infinite alternate-reverse;
-    z-index: +1;
+    z-index: +10;
 }
 .germ3:hover
+{
+   -webkit-animation-play-state: paused;
+   -moz-animation-play-state: paused;
+   -o-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+.germ4 {
+    background: yellow;
+    width: 25vh;
+    height: 20vh;
+    border-radius: 20vh;
+    bottom: 100px;
+    right: 80px;
+    position: absolute;
+    animation: move 5s infinite alternate-reverse;
+    z-index: +12;
+
+}
+.germ4:hover
+{
+   -webkit-animation-play-state: paused;
+   -moz-animation-play-state: paused;
+   -o-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+
+.germ5 {
+    background: white;
+    width: 25vh;
+    height: 20vh;
+    border-radius: 20vh;
+    bottom: 100px;
+    right: 80px;
+    position: absolute;
+    animation: move 5s infinite alternate-reverse;
+    z-index: +11;
+}
+.germ5:hover
+{
+   -webkit-animation-play-state: paused;
+   -moz-animation-play-state: paused;
+   -o-animation-play-state: paused;
+    animation-play-state: paused;
+}
+.germ6 {
+    background: gray;
+    width: 25vh;
+    height: 20vh;
+    border-radius: 20vh;
+    bottom: 100px;
+    right: 80px;
+    position: absolute;
+    animation: move 5s infinite alternate-reverse;
+    z-index: +9;
+}
+.germ6:hover
+{
+   -webkit-animation-play-state: paused;
+   -moz-animation-play-state: paused;
+   -o-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+.germ7 {
+    background: black;
+    width: 25vh;
+    height: 20vh;
+    border-radius: 20vh;
+    bottom: 100px;
+    right: 80px;
+    position: absolute;
+    animation: move 5s infinite alternate-reverse;
+    z-index: +12;
+
+}
+.germ7:hover
+{
+   -webkit-animation-play-state: paused;
+   -moz-animation-play-state: paused;
+   -o-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+
+.germ8 {
+    background: orange;
+    width: 25vh;
+    height: 20vh;
+    border-radius: 20vh;
+    bottom: 100px;
+    right: 80px;
+    position: absolute;
+    animation: move 5s infinite alternate-reverse;
+    z-index: +8;
+}
+.germ8:hover
+{
+   -webkit-animation-play-state: paused;
+   -moz-animation-play-state: paused;
+   -o-animation-play-state: paused;
+    animation-play-state: paused;
+}
+.germ9 {
+    background: brown;
+    width: 25vh;
+    height: 20vh;
+    border-radius: 20vh;
+    bottom: 100px;
+    right: 80px;
+    position: absolute;
+    animation: move 5s infinite alternate-reverse;
+    z-index: +10;
+}
+.germ9:hover
+{
+   -webkit-animation-play-state: paused;
+   -moz-animation-play-state: paused;
+   -o-animation-play-state: paused;
+    animation-play-state: paused;
+}.germ10 {
+    background: purple;
+    width: 25vh;
+    height: 20vh;
+    border-radius: 20vh;
+    bottom: 100px;
+    right: 80px;
+    position: absolute;
+    animation: move 5s infinite alternate-reverse;
+    z-index: 7;
+
+}
+.germ10:hover
+{
+   -webkit-animation-play-state: paused;
+   -moz-animation-play-state: paused;
+   -o-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+
+.germ11 {
+    background: #F1329B;
+    width: 25vh;
+    height: 20vh;
+    border-radius: 20vh;
+    bottom: 100px;
+    right: 80px;
+    position: absolute;
+    animation: move 5s infinite alternate-reverse;
+    z-index: +5;
+}
+.germ11:hover
+{
+   -webkit-animation-play-state: paused;
+   -moz-animation-play-state: paused;
+   -o-animation-play-state: paused;
+    animation-play-state: paused;
+}
+.germ12 {
+    background: #ACD5C8;
+    width: 25vh;
+    height: 20vh;
+    border-radius: 20vh;
+    bottom: 100px;
+    right: 80px;
+    position: absolute;
+    animation: move 5s infinite alternate-reverse;
+    z-index: +11;
+}
+.germ12:hover
 {
    -webkit-animation-play-state: paused;
    -moz-animation-play-state: paused;
