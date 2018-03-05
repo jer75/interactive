@@ -74,7 +74,7 @@
     right: 80px;
     position: absolute;
     animation: move 5s infinite alternate-reverse;
-    z-index: +12;
+    z-index: +9;
 
 }
 .germ4:hover
@@ -95,7 +95,7 @@
     right: 80px;
     position: absolute;
     animation: move 5s infinite alternate-reverse;
-    z-index: +11;
+    z-index: +8;
 }
 .germ5:hover
 {
@@ -113,7 +113,7 @@
     right: 80px;
     position: absolute;
     animation: move 5s infinite alternate-reverse;
-    z-index: +9;
+    z-index: +7;
 }
 .germ6:hover
 {
@@ -132,7 +132,7 @@
     right: 80px;
     position: absolute;
     animation: move 5s infinite alternate-reverse;
-    z-index: +12;
+    z-index: +6;
 
 }
 .germ7:hover
@@ -153,7 +153,7 @@
     right: 80px;
     position: absolute;
     animation: move 5s infinite alternate-reverse;
-    z-index: +8;
+    z-index: +5;
 }
 .germ8:hover
 {
@@ -171,7 +171,7 @@
     right: 80px;
     position: absolute;
     animation: move 5s infinite alternate-reverse;
-    z-index: +10;
+    z-index: +4;
 }
 .germ9:hover
 {
@@ -188,7 +188,7 @@
     right: 80px;
     position: absolute;
     animation: move 5s infinite alternate-reverse;
-    z-index: 7;
+    z-index: +3;
 
 }
 .germ10:hover
@@ -209,7 +209,7 @@
     right: 80px;
     position: absolute;
     animation: move 5s infinite alternate-reverse;
-    z-index: +5;
+    z-index: +2;
 }
 .germ11:hover
 {
@@ -227,7 +227,7 @@
     right: 80px;
     position: absolute;
     animation: move 5s infinite alternate-reverse;
-    z-index: +11;
+    z-index: +1;
 }
 .germ12:hover
 {
