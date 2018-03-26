@@ -1,0 +1,1666 @@
+.letter {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 10vw;
+  height: 20vw;
+  position: relative;
+  margin-right: .5vw;
+  margin-bottom: 8vw;
+}
+
+.letter-inside {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.a .fill {
+  width: 10vw;
+  height: 33%;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.a .right {
+    background: black;
+    width: 2.5vw;
+    height: 56.3%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.a .top {
+  background: black;
+  height: 2.5vw;
+  width: 85%;
+  position: absolute;
+  right: 0;
+  top: 8.74vw;
+}
+
+.b .fill {
+  width: 10vw;
+  height: 56.3%;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.b .left {
+    background: black;
+    width: 2.5vw;
+    height: 95%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.c .top {
+  background: black;
+  height: 2.5vw;
+  width: 85%;
+  position: absolute;
+  left: 0;
+  top: 8.74vw;
+}
+
+.c .left {
+  background: black;
+  width: 2.5vw;
+  height: 56.3%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.c .bottom {
+  background: black;
+  height: 2.5vw;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.d .fill {
+  width: 10vw;
+  height: 56.3%;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.d .right {
+    background: black;
+    width: 2.5vw;
+    height: 95%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.e .fill {
+  width: 10vw;
+  height: 33%;
+  background: black;
+  position: absolute;
+  left: 0;
+  top: 8.74vw;
+}
+
+.e .left {
+    background: black;
+    width: 2.5vw;
+    height: 56.3%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.e .bottom {
+  background: black;
+  height: 2.5vw;
+  width: 85%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.f .left {
+    background: black;
+    width: 2.5vw;
+    height: 95%;
+    position: absolute;
+    bottom: 0;
+    left: 1.5vw;
+}
+
+.f .top {
+  background: black;
+  height: 2.5vw;
+  width: 70%;
+  position: absolute;
+  top: 1vw;
+  left: 1.5vw;
+}
+
+.f .middle {
+  background: black;
+  height: 2.5vw;
+  width: 100%;
+  position: absolute;
+  top: 8.75vw;
+  left: 0;
+}
+
+.letter.f {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 7vw;
+  height: 20vw;
+  position: relative;
+  margin-right: .5vw;
+  margin-bottom: 8vw;
+}
+
+.g .fill {
+  width: 10vw;
+  height: 56.3%;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.g .right {
+    background: black;
+    width: 2.5vw;
+    height: 75%;
+    position: absolute;
+    right: 0;
+    bottom: -3.8vw;
+}
+
+.g .bottom {
+  background: black;
+  height: 2.5vw;
+  width: 85%;
+  position: absolute;
+  right: 0;
+  bottom: -4.8vw;
+}
+
+.letter.g {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 10vw;
+  height: 20vw;
+  position: relative;
+  margin-right: .5vw;
+  margin-bottom: 8vw;
+}
+
+.h .left {
+  background: black;
+  width: 2.5vw;
+  height: 95%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.h .middle {
+  background: black;
+  height: 2.5vw;
+  width: 100%;
+}
+
+.h .right {
+    background: black;
+    width: 2.5vw;
+    height: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.i .fill {
+  width: 2.5vw;
+  height: 56.3%;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.i .dot {
+  width: 2.5vw;
+  height: 2.5vw;
+  background: black;
+  position: absolute;
+  top: 5vw;
+  left: 0;
+}
+
+.letter.i {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 2.5vw;
+  height: 20vw;
+  position: relative;
+  margin-right: .5vw;
+  margin-bottom: 8vw;
+}
+
+.j .dot {
+  width: 2.5vw;
+  height: 2.5vw;
+  background: black;
+  position: absolute;
+  top: 5vw;
+  right: 0;
+}
+
+.j .right {
+    background: black;
+    width: 2.5vw;
+    height: 75%;
+    position: absolute;
+    right: 0;
+    bottom: -3.8vw;
+}
+
+.j .bottom {
+  background: black;
+  height: 2.5vw;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  bottom: -4.8vw;
+}
+
+.letter.j {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 5vw;
+  height: 20vw;
+  position: relative;
+  margin-left: -2.5vw;
+  margin-bottom: 8vw;
+}
+
+.k .left {
+  background: black;
+  width: 2.5vw;
+  height: 95%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.k .right-top {
+  background: black;
+  height: 2.5vw;
+  width: 80%;
+  transform: rotate(-45deg);
+  position: absolute;
+  left: 0.5vw;
+  bottom: 9.6vw;
+}
+
+.k .right-bottom {
+  background: black;
+  height: 2.5vw;
+  width: 105%;
+  transform: rotate(50deg);
+  position: absolute;
+  left: -0.1vw;
+  bottom: 2.8vw;
+}
+
+.letter.k {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 8vw;
+  height: 20vw;
+  position: relative;
+  margin-right: .5vw;
+  margin-bottom: 8vw;
+}
+
+.l .stroke {
+  background: black;
+  width: 2.5vw;
+  height: 95%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.letter.l {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 2.5vw;
+  height: 20vw;
+  position: relative;
+  margin-right: .5vw;
+  margin-bottom: 8vw;
+}
+
+.m .left {
+  background: black;
+  width: 2.5vw;
+  height: 50%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.m .top {
+  background: black;
+  height: 2.5vw;
+  width: 100%;
+}
+
+.m .right {
+    background: black;
+    width: 2.5vw;
+    height: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.m .middle {
+  background: black;
+  width: 2.5vw;
+  height: 50%;
+  position: absolute;
+  right: 6.2vw;
+  bottom: 0;
+}
+
+.letter.m {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 15vw;
+  height: 20vw;
+  position: relative;
+  margin-right: .5vw;
+  margin-bottom: 8vw;
+}
+
+.n .left {
+  background: black;
+  width: 2.5vw;
+  height: 50%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.n .top {
+  background: black;
+  height: 2.5vw;
+  width: 100%;
+}
+
+.n .right {
+    background: black;
+    width: 2.5vw;
+    height: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.letter.n {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 7.5vw;
+  height: 20vw;
+  position: relative;
+  margin-right: .5vw;
+  margin-bottom: 8vw;
+}
+
+.o .fill {
+  width: 11.25vw;
+  height: 11.25vw;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.letter.o {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 11.25vw;
+  height: 20vw;
+  position: relative;
+  margin-right: .5vw;
+  margin-bottom: 8vw;
+}
+
+.p .left {
+    background: black;
+    width: 2.5vw;
+    height: 75%;
+    position: absolute;
+    left: 0;
+    bottom: -3.8vw;
+}
+
+.p .fill {
+  width: 10vw;
+  height: 56.3%;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.letter.p {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 10vw;
+  height: 20vw;
+  position: relative;
+  margin-right: .5vw;
+  margin-bottom: 8vw;
+}
+
+.q .right {
+    background: black;
+    width: 2.5vw;
+    height: 75%;
+    position: absolute;
+    right: 0;
+    bottom:-3.8vw;
+}
+
+.q .fill {
+  width: 10vw;
+  height: 56.3%;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.letter.q {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 10vw;
+  height: 20vw;
+  position: relative;
+  margin-right: .5vw;
+  margin-bottom: 8vw;
+}
+
+.r .left {
+  background: black;
+  width: 2.5vw;
+  height: 50%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.r .top {
+  background: black;
+  height: 2.5vw;
+  width: 100%;
+}
+
+.letter.r {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 5vw;
+  height: 20vw;
+  position: relative;
+  margin-right: .5vw;
+  margin-bottom: 8vw;
+}
+
+.s .top {
+  background: black;
+  height: 2.5vw;
+  width: 85%;
+  position: absolute;
+  left: 0;
+  top: 8.74vw;
+}
+
+.s .left {
+  background: black;
+  width: 2.5vw;
+  height: 25%;
+  position: absolute;
+  left: 0;
+  top: 9vw;
+}
+
+.s .middle {
+  background: black;
+  height: 2.5vw;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 4.4vw;
+}
+
+.s .right {
+  background: black;
+  width: 2.5vw;
+  height: 25%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.s .bottom {
+  background: black;
+  height: 2.5vw;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.letter.s {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 8.5vw;
+  height: 20vw;
+  position: relative;
+  margin-right: .5vw;
+  margin-bottom: 8vw;
+}
+
+.t .left {
+    background: black;
+    width: 2.5vw;
+    height: 95%;
+    position: absolute;
+    bottom: 0;
+    left: 1.5vw;
+}
+
+.t .middle {
+  background: black;
+  height: 2.5vw;
+  width: 100%;
+  position: absolute;
+  top: 8.75vw;
+  left: 0;
+}
+
+.letter.t {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 7vw;
+  height: 20vw;
+  position: relative;
+  margin-right: .5vw;
+  margin-bottom: 8vw;
+}
+
+.u .left {
+  background: black;
+  width: 2.5vw;
+  height: 56.3%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.u .bottom {
+  background: black;
+  height: 2.5vw;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.u .right {
+    background: black;
+    width: 2.5vw;
+    height: 56.3%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.letter.u {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 7.5vw;
+  height: 20vw;
+  position: relative;
+  margin-right: .5vw;
+  margin-bottom: 8vw;
+}
+
+.v .left {
+  background: black;
+  width: 2.5vw;
+  height: 26%;
+  position: absolute;
+  left: 0;
+  top: 8.74vw;
+}
+
+.v .left-diagnol {
+  background: black;
+  width: 2.5vw;
+  height: 35%;
+  position: absolute;
+  bottom: .2vw;
+  left: 1.437vw;
+  transform: rotate(-27deg);
+}
+
+.v .right {
+    background: black;
+    width: 2.5vw;
+    height: 26%;
+    position: absolute;
+    right: 0;
+    top: 8.74vw;
+}
+
+.v .right-diagnol {
+  background: black;
+  width: 2.5vw;
+  height: 35%;
+  position: absolute;
+  bottom: .2vw;
+  right: 1.42vw;
+  transform: rotate(27deg);
+}
+
+.v .bottom {
+  background: black;
+  height: 3.5vw;
+  width: 33%;
+  position: absolute;
+  bottom: 0;
+  left: 3.2vw;
+}
+
+.letter.v {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 9.5vw;
+  height: 20vw;
+  position: relative;
+  margin-right: .5vw;
+  margin-bottom: 8vw;
+}
+
+.w .left {
+  background: black;
+  width: 2.5vw;
+  height: 26%;
+  position: absolute;
+  left: 0;
+  top: 8.74vw;
+}
+
+.w .left-diagnol {
+  background: black;
+  width: 2.5vw;
+  height: 35%;
+  position: absolute;
+  bottom: .2vw;
+  left: 1.464vw;
+  transform: rotate(-27deg);
+}
+
+.w .middle {
+    background: black;
+    width: 2.5vw;
+    height: 26%;
+    position: absolute;
+    right: 6.95vw;
+    top: 8.74vw;
+}
+
+.w .left-middle-diagnol {
+  background: black;
+  width: 2.5vw;
+  height: 35%;
+  position: absolute;
+  bottom: .2vw;
+  right: 8.4vw;
+  transform: rotate(27deg);
+}
+
+.w .left-bottom {
+  background: black;
+  height: 3.5vw;
+  width: 19.3%;
+  position: absolute;
+  bottom: 0;
+  left: 3.2vw;
+}
+
+.w .right-middle-diagnol {
+  background: black;
+  width: 2.5vw;
+  height: 35%;
+  position: absolute;
+  bottom: .2vw;
+  left: 8.4vw;
+  transform: rotate(-27deg);
+}
+
+.w .right {
+    background: black;
+    width: 2.5vw;
+    height: 26%;
+    position: absolute;
+    right: 0;
+    top: 8.74vw;
+}
+
+.w .right-diagnol {
+  background: black;
+  width: 2.5vw;
+  height: 35%;
+  position: absolute;
+  bottom: .2vw;
+  right: 1.5vw;
+  transform: rotate(27deg);
+}
+
+.w .right-bottom {
+  background: black;
+  height: 3.5vw;
+  width: 18.9%;
+  position: absolute;
+  bottom: 0;
+  left: 10.15vw;
+}
+
+.letter.w {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 16.5vw;
+  height: 20vw;
+  position: relative;
+  margin-right: .5vw;
+  margin-bottom: 8vw;
+}
+
+.x .left-top {
+  background: black;
+  width: 2.5vw;
+  height: 20%;
+  position: absolute;
+  left: 0;
+  top: 8.74vw;
+}
+
+.x .left-bottom {
+  background: black;
+  width: 2.5vw;
+  height: 20%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.x .left-diagnol {
+    background: black;
+    width: 2.5vw;
+    height: 48.734%;
+    position: absolute;
+    bottom: .7353vw;
+    left: 3.517vw;
+    transform: rotate(-55.9deg);
+}
+
+.x .right-top {
+    background: black;
+    width: 2.5vw;
+    height: 20%;
+    position: absolute;
+    right: 0;
+    top: 8.74vw;
+}
+
+.x .right-bottom {
+    background: black;
+    width: 2.5vw;
+    height: 20%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.x .right-diagnol {
+    background: black;
+    width: 2.5vw;
+    height: 48.734%;
+    position: absolute;
+    bottom: .7353vw;
+    right: 3.517vw;
+    transform: rotate(55.9deg);
+}
+
+.letter.x {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 9.5vw;
+  height: 20vw;
+  position: relative;
+  margin-right: .5vw;
+  margin-bottom: 8vw;
+}
+
+.y .left {
+    background: black;
+    width: 2.5vw;
+    height: 26%;
+    position: absolute;
+    left: 0;
+    top: 8.74vw;
+}
+
+.y .left-diagnol {
+    background: black;
+    width: 2.5vw;
+    height: 40%;
+    position: absolute;
+    bottom: -0.85vw;
+    left: 1.7vw;
+    transform: rotate(-27deg);
+}
+
+.y .right {
+    background: black;
+    width: 2.5vw;
+    height: 26%;
+    position: absolute;
+    right: .05vw;
+    top: 8.74vw;
+}
+
+.y .right-diagnol {
+  background: black;
+  width: 2.5vw;
+  height: 35%;
+  position: absolute;
+  bottom: .2vw;
+  right: 1.42vw;
+  transform: rotate(27deg);
+}
+
+.y .base {
+  background: black;
+  height: 3.5vw;
+  width: 33%;
+  position: absolute;
+  bottom: 0;
+  left: 3.2vw;
+}
+
+.y .bottom-stroke {
+    background: black;
+    width: 2.5vw;
+    height: 35%;
+    position: absolute;
+    bottom: -4.8vw;
+    right: 4vw;
+    transform: rotate(27deg);
+}
+
+.letter.y {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 9.5vw;
+  height: 20vw;
+  position: relative;
+  margin-right: .5vw;
+  margin-bottom: 8vw;
+}
+
+.z .top {
+  background: black;
+  height: 2.5vw;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 8.74vw;
+}
+
+.z .middle {
+    background: black;
+    height: 2.5vw;
+    width: 120%;
+    position: absolute;
+    left: -0.8vw;
+    bottom: 4.4vw;
+    transform: rotate(-50deg);
+}
+
+.z .bottom {
+  background: black;
+  height: 2.5vw;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.letter.z {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 8.5vw;
+  height: 20vw;
+  position: relative;
+  margin-right: .5vw;
+  margin-bottom: 8vw;
+}
+
+.zero .fill {
+  width: 100%;
+  height: 20vw;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.letter.zero {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 10vw;
+  height: 20vw;
+  position: relative;
+  margin-right: .5vw;
+  margin-bottom: 8vw;
+}
+
+.one .right {
+    background: black;
+    width: 2.5vw;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 2.5vw;
+}
+
+.one .top {
+    background: black;
+    height: 2.5vw;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 1vw;
+}
+
+.one .bottom {
+  background: black;
+  height: 2.5vw;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.letter.one {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 10vw;
+  height: 20vw;
+  position: relative;
+  margin-right: .5vw;
+  margin-bottom: 8vw;
+}
+
+.two .top {
+    background: black;
+    height: 2.5vw;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.two .left {
+  background: black;
+  width: 2.5vw;
+  height: 50%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.two .middle {
+    background: black;
+    height: 2.5vw;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 8.75vw;
+}
+
+.two .right {
+  background: black;
+  width: 2.5vw;
+  height: 50%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.two .bottom {
+  background: black;
+  height: 2.5vw;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.letter.two {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 12.5vw;
+  height: 20vw;
+  position: relative;
+  margin-right: .5vw;
+  margin-bottom: 8vw;
+}
+
+.three .top {
+    background: black;
+    height: 2.5vw;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.three .right-bottom {
+  background: black;
+  width: 2.5vw;
+  height: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.three .middle {
+    background: black;
+    height: 2.5vw;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 8.75vw;
+}
+
+.three .right-top {
+  background: black;
+  width: 2.5vw;
+  height: 50%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.three .bottom {
+  background: black;
+  height: 2.5vw;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.letter.three {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 12.5vw;
+  height: 20vw;
+  position: relative;
+  margin-right: .5vw;
+  margin-bottom: 8vw;
+}
+
+.four .right {
+  background: black;
+  width: 2.5vw;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.four .middle {
+    background: black;
+    height: 2.5vw;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 8.75vw;
+}
+
+.four .left {
+  background: black;
+  width: 2.5vw;
+  height: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.letter.four {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 12.5vw;
+  height: 20vw;
+  position: relative;
+  margin-right: .5vw;
+  margin-bottom: 8vw;
+}
+
+.five .top {
+    background: black;
+    height: 2.5vw;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.five .left {
+  background: black;
+  width: 2.5vw;
+  height: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.five .middle {
+    background: black;
+    height: 2.5vw;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 8.75vw;
+}
+
+.five .right {
+  background: black;
+  width: 2.5vw;
+  height: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.five .bottom {
+  background: black;
+  height: 2.5vw;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.letter.five {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 12.5vw;
+  height: 20vw;
+  position: relative;
+  margin-right: .5vw;
+  margin-bottom: 8vw;
+}
+
+.six .fill {
+  width: 12.5vw;
+  height: 56.3%;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.six .left {
+    background: black;
+    width: 2.5vw;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.letter.six {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 12.5vw;
+  height: 20vw;
+  position: relative;
+  margin-right: .5vw;
+  margin-bottom: 8vw;
+}
+
+.seven .top {
+    background: black;
+    height: 2.5vw;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.seven .bottom {
+    background: black;
+    height: 2.5vw;
+    width: 140%;
+    position: absolute;
+    left: -1.7vw;
+    top: 10.6vw;
+    transform: rotate(-59.5deg);
+}
+
+.seven .right {
+  background: black;
+  width: 2.5vw;
+  height: 25%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.letter.seven {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 12.5vw;
+  height: 20vw;
+  position: relative;
+  margin-right: .5vw;
+  margin-bottom: 8vw;
+}
+
+.eight .fill {
+  width: 100%;
+  height: 20vw;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.letter.eight {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 12.5vw;
+  height: 20vw;
+  position: relative;
+  margin-right: .5vw;
+  margin-bottom: 8vw;
+}
+
+.nine .fill {
+  width: 12.5vw;
+  height: 56.3%;
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.nine .right {
+    background: black;
+    width: 2.5vw;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.letter.nine {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 12.5vw;
+  height: 20vw;
+  position: relative;
+  margin-right: .5vw;
+  margin-bottom: 8vw;
+}
+
+.question .top {
+    background: black;
+    height: 2.5vw;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.question .down {
+    background: black;
+    width: 2.5vw;
+    height: 25%;
+    position: absolute;
+    left: 1.9vw;
+    bottom: 4vw;
+}
+
+.question .middle {
+    background: black;
+    height: 2.5vw;
+    width: 85%;
+    position: absolute;
+    right: 0;
+    top: 8.75vw;
+}
+
+.question .right {
+  background: black;
+  width: 2.5vw;
+  height: 50%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.question .dot {
+  width: 2.5vw;
+  height: 2.5vw;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  left: 1.9vw;
+}
+
+.letter.question {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 12.5vw;
+  height: 20vw;
+  position: relative;
+  margin-right: .5vw;
+  margin-bottom: 8vw;
+}
+
+.exclamation .stroke {
+  background: black;
+  width: 2.5vw;
+  height: 80%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.exclamation .dot {
+  width: 2.5vw;
+  height: 2.5vw;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.letter.exclamation {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 2.5vw;
+  height: 20vw;
+  position: relative;
+  margin-right: .5vw;
+  margin-bottom: 8vw;
+}
+
+.period .dot {
+  width: 2.5vw;
+  height: 2.5vw;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.letter.period {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 2.5vw;
+  height: 20vw;
+  position: relative;
+  margin-right: .5vw;
+  margin-bottom: 8vw;
+}
+
+.coma .stroke {
+    background: black;
+    width: 2.5vw;
+    height: 21%;
+    position: absolute;
+    left: -0.8vw;
+    bottom: -3.4vw;
+    transform: rotate(29deg);
+}
+
+.coma .stroke-top {
+  width: 2.5vw;
+  height: 2.5vw;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.letter.coma {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 2.5vw;
+  height: 20vw;
+  position: relative;
+  margin-right: .5vw;
+  margin-bottom: 8vw;
+}
+
+.semi-colon .stroke {
+    background: black;
+    width: 2.5vw;
+    height: 21%;
+    position: absolute;
+    left: -0.8vw;
+    bottom: -3.4vw;
+    transform: rotate(29deg);
+}
+
+.semi-colon .stroke-top {
+  width: 2.5vw;
+  height: 2.5vw;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.semi-colon .dot {
+  width: 2.5vw;
+  height: 2.5vw;
+  background: black;
+  position: absolute;
+  top: 8.74vw;
+  left: 0;
+}
+
+.letter.semi-colon {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 2.5vw;
+  height: 20vw;
+  position: relative;
+  margin-right: .5vw;
+  margin-bottom: 8vw;
+}
+
+.left-quotation .left-stroke {
+    background: black;
+    width: 2.5vw;
+    height: 21%;
+    position: absolute;
+    left: .69vw;
+    top: 0.4vw;
+    transform: rotate(25deg);
+}
+
+.left-quotation .left-stroke-top {
+    width: 2.5vw;
+    height: 2.5vw;
+    background: black;
+    position: absolute;
+    top: 3.82vw;
+    left: 0;
+}
+
+.left-quotation .right-stroke {
+    background: black;
+    width: 2.5vw;
+    height: 21%;
+    position: absolute;
+    left: 4.29vw;
+    top: 0.4vw;
+    transform: rotate(25deg);
+}
+
+.left-quotation .right-stroke-top {
+    width: 2.5vw;
+    height: 2.5vw;
+    background: black;
+    position: absolute;
+    top: 3.82vw;
+    left: 3.5vw;
+}
+
+.letter.left-quotation {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 7vw;
+  height: 20vw;
+  position: relative;
+  margin-right: .5vw;
+  margin-bottom: 8vw;
+}
+
+.hyphen .stroke {
+  background: black;
+  height: 2.5vw;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 8.74vw;
+}
+
+.letter.hyphen {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 5vw;
+  height: 20vw;
+  position: relative;
+  margin-right: .5vw;
+  margin-bottom: 8vw;
+}
+
+.en-dash .stroke {
+  background: black;
+  height: 2.5vw;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 8.74vw;
+}
+
+.letter.en-dash {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 8.5vw;
+  height: 20vw;
+  position: relative;
+  margin-right: .5vw;
+  margin-bottom: 8vw;
+}
+
+.em-dash .stroke {
+  background: black;
+  height: 2.5vw;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 8.74vw;
+}
+
+.letter.em-dash {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 12.5vw;
+  height: 20vw;
+  position: relative;
+  margin-right: .5vw;
+  margin-bottom: 8vw;
+}
+
+.right-quotation .left-stroke {
+    background: black;
+    width: 2.5vw;
+    height: 21%;
+    position: absolute;
+    left: -1vw;
+    top: .7vw;
+    transform: rotate(145deg);
+}
+
+.right-quotation .left-stroke-top {
+    width: 2.5vw;
+    height: 2.5vw;
+    background: black;
+    position: absolute;
+    top: 3.82vw;
+    left: 0;
+}
+
+.right-quotation .right-stroke {
+    background: black;
+    width: 2.5vw;
+    height: 21%;
+    position: absolute;
+    left: 2.55vw;
+    top: 0.7vw;
+    transform: rotate(145deg);
+}
+
+.right-quotation .right-stroke-top {
+    width: 2.5vw;
+    height: 2.5vw;
+    background: black;
+    position: absolute;
+    top: 3.82vw;
+    left: 3.5vw;
+}
+
+.letter.right-quotation {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 7vw;
+  height: 20vw;
+  position: relative;
+  margin-right: .5vw;
+  margin-bottom: 8vw;
+}
