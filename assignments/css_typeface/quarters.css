@@ -44,7 +44,7 @@ body{
 .word {
   display: inline-block;
   white-space: nowrap;
-  background: #D5EFE7;
+  background: #D35400;
 }
 
 
@@ -1045,6 +1045,7 @@ body{
 .letter-z {
 	width: 10vw;
 	height: 20vw;
+	background-color: #1A5276;
 }
 
 .z .top {

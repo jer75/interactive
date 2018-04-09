@@ -44,7 +44,7 @@ body{
 .word {
   display: inline-block;
   white-space: nowrap;
-  background: #D5EFE7;
+  background: #758EE1;
 }
 
 
@@ -264,7 +264,9 @@ body{
 .letter-g {
 	width: 10vw;
 	height: 20vw;
+	background-color: #D35400;
 }
+
 .g .fill {
   width: 10vw;
   height: 56.3%;
@@ -537,6 +539,7 @@ body{
 .o {
 	width: 11.25vw;
 	position: relative;
+	background-color: #EAF253;
 }
 
 .letter-o {
@@ -1045,6 +1048,7 @@ body{
 .letter-z {
 	width: 10vw;
 	height: 20vw;
+	background-color: #1A5276;
 }
 
 .z .top {
