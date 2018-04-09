@@ -1,0 +1,1672 @@
+body{
+	background-color: #FCF3CF;
+}
+
+#text {
+	text-align: left;
+	height: 75%;
+	width: 75%;
+}
+#albums li {
+	list-style-type: none;
+}
+
+#albums a {
+	text-decoration: none;
+	font-family: futura-pt, sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 10vw;
+	color: #85C1E9;
+}
+
+.letter-definition {
+	display: none;
+}
+
+ .letter {
+  display: inline-block;
+  vertical-align: bottom;
+  height: 20vw;
+  margin-right: .5vw;
+  margin-left: .5vw;
+  margin-bottom: 3vw;
+}
+
+.word {
+  display: inline-block;
+  white-space: nowrap;
+  /*background: #D5EFE7;*/
+}
+
+
+.space {
+	width: 5vw;
+	height: 20vw;
+}
+
+.a {
+	width: 10vw;
+	position: relative;
+  background: red;
+}
+
+.letter-a {
+	width: 10vw;
+	height: 20vw;
+}
+
+.a .fill {
+  width: 10vw;
+  height: 33%;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.a .right {
+    background: black;
+    width: 2.5vw;
+    height: 56.3%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.a .top {
+  background: black;
+  height: 2.5vw;
+  width: 85%;
+  position: absolute;
+  right: 0;
+  top: 8.74vw;
+}
+
+.b {
+	width: 10vw;
+	position: relative;
+}
+
+.letter-b {
+	width: 10vw;
+	height: 20vw;
+}
+
+.b .fill {
+  width: 10vw;
+  height: 56.3%;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.b .left {
+    background: black;
+    width: 2.5vw;
+    height: 95%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.c {
+	width: 10vw;
+	position: relative;
+}
+
+.letter-c {
+	width: 10vw;
+	height: 20vw;
+}
+
+.c .top {
+  background: black;
+  height: 2.5vw;
+  width: 85%;
+  position: absolute;
+  left: 0;
+  top: 8.74vw;
+}
+
+.c .left {
+  background: black;
+  width: 2.5vw;
+  height: 56.3%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.c .bottom {
+  background: black;
+  height: 2.5vw;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.d {
+	width: 10vw;
+	position: relative;
+}
+
+.letter-d {
+	width: 10vw;
+	height: 20vw;
+}
+
+.d .fill {
+  width: 10vw;
+  height: 56.3%;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.d .right {
+    background: black;
+    width: 2.5vw;
+    height: 95%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.e {
+	width: 10vw;
+	position: relative;
+}
+
+.letter-e {
+	width: 10vw;
+	height: 20vw;
+}
+.e .fill {
+  width: 10vw;
+  height: 33%;
+  background: black;
+  position: absolute;
+  left: 0;
+  top: 8.74vw;
+}
+
+.e .left {
+    background: black;
+    width: 2.5vw;
+    height: 56.3%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.e .bottom {
+  background: black;
+  height: 2.5vw;
+  width: 85%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.f {
+	width: 7vw;
+	position: relative;
+}
+
+.letter-f {
+	width: 10vw;
+	height: 20vw;
+}
+
+.f .left {
+    background: black;
+    width: 2.5vw;
+    height: 95%;
+    position: absolute;
+    bottom: 0;
+    left: 1.5vw;
+}
+
+.f .top {
+  background: black;
+  height: 2.5vw;
+  width: 70%;
+  position: absolute;
+  top: 1vw;
+  left: 1.5vw;
+}
+
+.f .middle {
+  background: black;
+  height: 2.5vw;
+  width: 100%;
+  position: absolute;
+  top: 8.75vw;
+  left: 0;
+}
+
+.g {
+	width: 10vw;
+	position: relative;
+}
+
+.letter-g {
+	width: 10vw;
+	height: 20vw;
+}
+.g .fill {
+  width: 10vw;
+  height: 56.3%;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.g .right {
+    background: black;
+    width: 2.5vw;
+    height: 75%;
+    position: absolute;
+    right: 0;
+    bottom: -3.8vw;
+}
+
+.g .bottom {
+  background: black;
+  height: 2.5vw;
+  width: 85%;
+  position: absolute;
+  right: 0;
+  bottom: -4.8vw;
+}
+
+.h {
+	width: 10vw;
+	position: relative;
+}
+
+.letter-h {
+	width: 10vw;
+	height: 20vw;
+}
+
+.h .left {
+  background: black;
+  width: 2.5vw;
+  height: 95%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.h .middle {
+  background: black;
+  height: 2.5vw;
+  width: 100%;
+  position: absolute;
+  top: 8.8vw;
+  left: 0;
+}
+
+.h .right {
+    background: black;
+    width: 2.5vw;
+    height: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.i {
+	width: 2.5vw;
+	position: relative;
+}
+
+.letter-i {
+	width: 10vw;
+	height: 20vw;
+}
+.i .fill {
+  width: 2.5vw;
+  height: 56.3%;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.i .dot {
+  width: 2.5vw;
+  height: 2.5vw;
+  background: black;
+  position: absolute;
+  top: 5vw;
+  left: 0;
+}
+
+.j {
+	width: 2.5vw;
+	position: relative;
+}
+
+.letter-j {
+	width: 10vw;
+	height: 20vw;
+  margin-left: -1vw;
+}
+
+.j .dot {
+  width: 2.5vw;
+  height: 2.5vw;
+  background: black;
+  position: absolute;
+  top: 5vw;
+  right: 0;
+}
+
+.j .right {
+    background: black;
+    width: 2.5vw;
+    height: 75%;
+    position: absolute;
+    right: 0;
+    bottom: -3.8vw;
+}
+
+.j .bottom {
+  background: black;
+  height: 2.5vw;
+  width: 200%;
+  position: absolute;
+  right: 0;
+  bottom: -4.8vw;
+}
+
+.k {
+	width: 8vw;
+	position: relative;
+}
+
+.letter-k {
+	width: 10vw;
+	height: 20vw;
+}
+
+.k .left {
+  background: black;
+  width: 2.5vw;
+  height: 95%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.k .right-top {
+  background: black;
+  height: 2.5vw;
+  width: 80%;
+  transform: rotate(-45deg);
+  position: absolute;
+  left: 0.5vw;
+  bottom: 9.6vw;
+}
+
+.k .right-bottom {
+  background: black;
+  height: 2.5vw;
+  width: 105%;
+  transform: rotate(50deg);
+  position: absolute;
+  left: -0.1vw;
+  bottom: 2.8vw;
+}
+
+.l {
+	width: 2.5vw;
+	position: relative;
+}
+
+.letter-l {
+	width: 10vw;
+	height: 20vw;
+}
+.l .stroke {
+  background: black;
+  width: 2.5vw;
+  height: 95%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.m {
+	width: 15vw;
+	position: relative;
+}
+
+.letter-m {
+	width: 10vw;
+	height: 20vw;
+}
+
+.m .left {
+  background: black;
+  width: 2.5vw;
+  height: 50%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.m .top {
+  background: black;
+  height: 2.5vw;
+  width: 100%;
+  position: absolute;
+  top: 8.8vw;
+  left: 0;
+}
+
+.m .right {
+    background: black;
+    width: 2.5vw;
+    height: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.m .middle {
+  background: black;
+  width: 2.5vw;
+  height: 50%;
+  position: absolute;
+  right: 6.2vw;
+  bottom: 0;
+}
+
+.n {
+	width: 7.5vw;
+	position: relative;
+}
+
+.letter-n {
+	width: 10vw;
+	height: 20vw;
+}
+
+.n .left {
+  background: black;
+  width: 2.5vw;
+  height: 50%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.n .top {
+  background: black;
+  height: 2.5vw;
+  width: 100%;
+  position: absolute;
+  top: 8.8vw;
+  left: 0;
+}
+
+.n .right {
+    background: black;
+    width: 2.5vw;
+    height: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.o {
+	width: 11.25vw;
+	position: relative;
+}
+
+.letter-o {
+	width: 10vw;
+	height: 20vw;
+}
+
+.o .fill {
+  width: 11.25vw;
+  height: 11.25vw;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.p {
+	width: 10vw;
+	position: relative;
+}
+
+.letter-p {
+	width: 10vw;
+	height: 20vw;
+}
+
+.p .left {
+    background: black;
+    width: 2.5vw;
+    height: 75%;
+    position: absolute;
+    left: 0;
+    bottom: -3.8vw;
+}
+
+.p .fill {
+  width: 10vw;
+  height: 56.3%;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.q {
+	width: 10vw;
+	position: relative;
+}
+
+.letter-q {
+	width: 10vw;
+	height: 20vw;
+}
+.q .right {
+    background: black;
+    width: 2.5vw;
+    height: 75%;
+    position: absolute;
+    right: 0;
+    bottom:-3.8vw;
+}
+
+.q .fill {
+  width: 10vw;
+  height: 56.3%;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.r {
+	width: 5vw;
+	position: relative;
+}
+
+.letter-r {
+	width: 10vw;
+	height: 20vw;
+}
+
+.r .left {
+  background: black;
+  width: 2.5vw;
+  height: 50%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.r .top {
+  background: black;
+  height: 2.5vw;
+  width: 100%;
+  position: absolute;
+  top: 8.8vw;
+  left: 0;
+}
+
+.s {
+	width: 8.5vw;
+	position: relative;
+}
+
+.letter-s {
+	width: 10vw;
+	height: 20vw;
+}
+
+.s .top {
+  background: black;
+  height: 2.5vw;
+  width: 85%;
+  position: absolute;
+  left: 0;
+  top: 8.74vw;
+}
+
+.s .left {
+  background: black;
+  width: 2.5vw;
+  height: 25%;
+  position: absolute;
+  left: 0;
+  top: 9vw;
+}
+
+.s .middle {
+  background: black;
+  height: 2.5vw;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 4.4vw;
+}
+
+.s .right {
+  background: black;
+  width: 2.5vw;
+  height: 25%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.s .bottom {
+  background: black;
+  height: 2.5vw;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.t {
+	width: 7vw;
+	position: relative;
+}
+
+.letter-t {
+	width: 10vw;
+	height: 20vw;
+}
+
+.t .left {
+    background: black;
+    width: 2.5vw;
+    height: 95%;
+    position: absolute;
+    bottom: 0;
+    left: 1.5vw;
+}
+
+.t .middle {
+  background: black;
+  height: 2.5vw;
+  width: 100%;
+  position: absolute;
+  top: 8.75vw;
+  left: 0;
+}
+
+.u {
+	width: 7.5vw;
+	position: relative;
+}
+
+.letter-u {
+	width: 10vw;
+	height: 20vw;
+}
+
+.u .left {
+  background: black;
+  width: 2.5vw;
+  height: 56.3%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.u .bottom {
+  background: black;
+  height: 2.5vw;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.u .right {
+    background: black;
+    width: 2.5vw;
+    height: 56.3%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.v {
+	width: 9.5vw;
+	position: relative;
+}
+
+.letter-v {
+	width: 10vw;
+	height: 20vw;
+}
+
+.v .left {
+  background: black;
+  width: 2.5vw;
+  height: 26%;
+  position: absolute;
+  left: 0;
+  top: 8.74vw;
+}
+
+.v .left-diagnol {
+  background: black;
+  width: 2.5vw;
+  height: 35%;
+  position: absolute;
+  bottom: .2vw;
+  left: 1.437vw;
+  transform: rotate(-27deg);
+}
+
+.v .right {
+    background: black;
+    width: 2.5vw;
+    height: 26%;
+    position: absolute;
+    right: 0;
+    top: 8.74vw;
+}
+
+.v .right-diagnol {
+  background: black;
+  width: 2.5vw;
+  height: 35%;
+  position: absolute;
+  bottom: .2vw;
+  right: 1.42vw;
+  transform: rotate(27deg);
+}
+
+.v .bottom {
+  background: black;
+  height: 3.5vw;
+  width: 33%;
+  position: absolute;
+  bottom: 0;
+  left: 3.2vw;
+}
+.w {
+	width: 16.5vw;
+	position: relative;
+}
+
+.letter-w {
+	width: 10vw;
+	height: 20vw;
+}
+.w .left {
+  background: black;
+  width: 2.5vw;
+  height: 26%;
+  position: absolute;
+  left: 0;
+  top: 8.74vw;
+}
+
+.w .left-diagnol {
+  background: black;
+  width: 2.5vw;
+  height: 35%;
+  position: absolute;
+  bottom: .2vw;
+  left: 1.464vw;
+  transform: rotate(-27deg);
+}
+
+.w .middle {
+    background: black;
+    width: 2.5vw;
+    height: 26%;
+    position: absolute;
+    right: 6.95vw;
+    top: 8.74vw;
+}
+
+.w .left-middle-diagnol {
+  background: black;
+  width: 2.5vw;
+  height: 35%;
+  position: absolute;
+  bottom: .2vw;
+  right: 8.4vw;
+  transform: rotate(27deg);
+}
+
+.w .left-bottom {
+  background: black;
+  height: 3.5vw;
+  width: 19.3%;
+  position: absolute;
+  bottom: 0;
+  left: 3.2vw;
+}
+
+.w .right-middle-diagnol {
+  background: black;
+  width: 2.5vw;
+  height: 35%;
+  position: absolute;
+  bottom: .2vw;
+  left: 8.4vw;
+  transform: rotate(-27deg);
+}
+
+.w .right {
+    background: black;
+    width: 2.5vw;
+    height: 26%;
+    position: absolute;
+    right: 0;
+    top: 8.74vw;
+}
+
+.w .right-diagnol {
+  background: black;
+  width: 2.5vw;
+  height: 35%;
+  position: absolute;
+  bottom: .2vw;
+  right: 1.5vw;
+  transform: rotate(27deg);
+}
+
+.w .right-bottom {
+  background: black;
+  height: 3.5vw;
+  width: 18.9%;
+  position: absolute;
+  bottom: 0;
+  left: 10.15vw;
+}
+
+.x {
+	width: 9.5vw;
+	position: relative;
+}
+
+.letter-x {
+	width: 10vw;
+	height: 20vw;
+}
+.x .left-top {
+  background: black;
+  width: 2.5vw;
+  height: 20%;
+  position: absolute;
+  left: 0;
+  top: 8.74vw;
+}
+
+.x .left-bottom {
+  background: black;
+  width: 2.5vw;
+  height: 20%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.x .left-diagnol {
+    background: black;
+    width: 2.5vw;
+    height: 48.734%;
+    position: absolute;
+    bottom: .7353vw;
+    left: 3.517vw;
+    transform: rotate(-55.9deg);
+}
+
+.x .right-top {
+    background: black;
+    width: 2.5vw;
+    height: 20%;
+    position: absolute;
+    right: 0;
+    top: 8.74vw;
+}
+
+.x .right-bottom {
+    background: black;
+    width: 2.5vw;
+    height: 20%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.x .right-diagnol {
+    background: black;
+    width: 2.5vw;
+    height: 48.734%;
+    position: absolute;
+    bottom: .7353vw;
+    right: 3.517vw;
+    transform: rotate(55.9deg);
+}
+
+.y {
+	width: 9.5vw;
+	position: relative;
+}
+
+.letter-y {
+	width: 10vw;
+	height: 20vw;
+}
+.y .left {
+    background: black;
+    width: 2.5vw;
+    height: 26%;
+    position: absolute;
+    left: 0;
+    top: 8.74vw;
+}
+
+.y .left-diagnol {
+    background: black;
+    width: 2.5vw;
+    height: 40%;
+    position: absolute;
+    bottom: -0.85vw;
+    left: 1.7vw;
+    transform: rotate(-27deg);
+}
+
+.y .right {
+    background: black;
+    width: 2.5vw;
+    height: 26%;
+    position: absolute;
+    right: .05vw;
+    top: 8.74vw;
+}
+
+.y .right-diagnol {
+  background: black;
+  width: 2.5vw;
+  height: 35%;
+  position: absolute;
+  bottom: .2vw;
+  right: 1.42vw;
+  transform: rotate(27deg);
+}
+
+.y .base {
+  background: black;
+  height: 3.5vw;
+  width: 33%;
+  position: absolute;
+  bottom: 0;
+  left: 3.2vw;
+}
+
+.y .bottom-stroke {
+    background: black;
+    width: 2.5vw;
+    height: 35%;
+    position: absolute;
+    bottom: -4.8vw;
+    right: 4vw;
+    transform: rotate(27deg);
+}
+
+.z {
+	width: 8.5vw;
+	position: relative;
+}
+
+.letter-z {
+	width: 10vw;
+	height: 20vw;
+}
+
+.z .top {
+  background: black;
+  height: 2.5vw;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 8.74vw;
+}
+
+.z .middle {
+    background: black;
+    height: 2.5vw;
+    width: 120%;
+    position: absolute;
+    left: -0.8vw;
+    bottom: 4.4vw;
+    transform: rotate(-50deg);
+}
+
+.z .bottom {
+  background: black;
+  height: 2.5vw;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.zero {
+	width: 10vw;
+	position: relative;
+}
+
+.letter-zero {
+	width: 10vw;
+	height: 20vw;
+}
+
+.zero .fill {
+  width: 100%;
+  height: 20vw;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.one {
+	width: 10vw;
+	position: relative;
+}
+
+.letter-one {
+	width: 10vw;
+	height: 20vw;
+}
+.one .right {
+    background: black;
+    width: 2.5vw;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 2.5vw;
+}
+
+.one .top {
+    background: black;
+    height: 2.5vw;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 1vw;
+}
+
+.one .bottom {
+  background: black;
+  height: 2.5vw;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.two {
+	width: 12.5vw;
+	position: relative;
+}
+
+.letter-two {
+	width: 10vw;
+	height: 20vw;
+}
+
+.two .top {
+    background: black;
+    height: 2.5vw;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.two .left {
+  background: black;
+  width: 2.5vw;
+  height: 50%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.two .middle {
+    background: black;
+    height: 2.5vw;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 8.75vw;
+}
+
+.two .right {
+  background: black;
+  width: 2.5vw;
+  height: 50%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.two .bottom {
+  background: black;
+  height: 2.5vw;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.three {
+	width: 12.5vw;
+	position: relative;
+}
+
+.letter-three {
+	width: 10vw;
+	height: 20vw;
+}
+
+.three .top {
+    background: black;
+    height: 2.5vw;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.three .right-bottom {
+  background: black;
+  width: 2.5vw;
+  height: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.three .middle {
+    background: black;
+    height: 2.5vw;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 8.75vw;
+}
+
+.three .right-top {
+  background: black;
+  width: 2.5vw;
+  height: 50%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.three .bottom {
+  background: black;
+  height: 2.5vw;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.four {
+	width: 12.5vw;
+	position: relative;
+}
+
+.letter-four {
+	width: 10vw;
+	height: 20vw;
+}
+
+.four .right {
+  background: black;
+  width: 2.5vw;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.four .middle {
+    background: black;
+    height: 2.5vw;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 8.75vw;
+}
+
+.four .left {
+  background: black;
+  width: 2.5vw;
+  height: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.five {
+	width: 12.5vw;
+	position: relative;
+}
+
+.letter-five {
+	width: 10vw;
+	height: 20vw;
+}
+
+.five .top {
+    background: black;
+    height: 2.5vw;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.five .left {
+  background: black;
+  width: 2.5vw;
+  height: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.five .middle {
+    background: black;
+    height: 2.5vw;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 8.75vw;
+}
+
+.five .right {
+  background: black;
+  width: 2.5vw;
+  height: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.five .bottom {
+  background: black;
+  height: 2.5vw;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.six {
+	width: 12.5vw;
+	position: relative;
+}
+
+.letter-six {
+	width: 10vw;
+	height: 20vw;
+}
+
+.six .fill {
+  width: 12.5vw;
+  height: 56.3%;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.six .left {
+    background: black;
+    width: 2.5vw;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.seven {
+	width: 12.5vw;
+	position: relative;
+}
+
+.letter-seven {
+	width: 10vw;
+	height: 20vw;
+}
+
+.seven .top {
+    background: black;
+    height: 2.5vw;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.seven .bottom {
+    background: black;
+    height: 2.5vw;
+    width: 140%;
+    position: absolute;
+    left: -1.7vw;
+    top: 10.6vw;
+    transform: rotate(-59.5deg);
+}
+
+.seven .right {
+  background: black;
+  width: 2.5vw;
+  height: 25%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.eight {
+	width: 12.5vw;
+	position: relative;
+}
+
+.letter-eight {
+	width: 10vw;
+	height: 20vw;
+}
+
+.eight .fill {
+  width: 100%;
+  height: 20vw;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.nine {
+	width: 12.5vw;
+	position: relative;
+}
+
+.letter-nine {
+	width: 10vw;
+	height: 20vw;
+}
+
+.nine .fill {
+  width: 12.5vw;
+  height: 56.3%;
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.nine .right {
+    background: black;
+    width: 2.5vw;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.question {
+	width: 12.5vw;
+	position: relative;
+}
+
+.letter-question {
+	width: 10vw;
+	height: 20vw;
+}
+
+.question .top {
+    background: black;
+    height: 2.5vw;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.question .down {
+    background: black;
+    width: 2.5vw;
+    height: 25%;
+    position: absolute;
+    left: 1.9vw;
+    bottom: 4vw;
+}
+
+.question .middle {
+    background: black;
+    height: 2.5vw;
+    width: 85%;
+    position: absolute;
+    right: 0;
+    top: 8.75vw;
+}
+
+.question .right {
+  background: black;
+  width: 2.5vw;
+  height: 50%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.question .dot {
+  width: 2.5vw;
+  height: 2.5vw;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  left: 1.9vw;
+}
+
+.exclamation {
+	width: 2.5vw;
+	position: relative;
+}
+
+.letter-exclamation {
+	width: 10vw;
+	height: 20vw;
+}
+
+.exclamation .stroke {
+  background: black;
+  width: 2.5vw;
+  height: 80%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.exclamation .dot {
+  width: 2.5vw;
+  height: 2.5vw;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.period {
+	width: 2.5vw;
+	position: relative;
+}
+
+.letter-period {
+	width: 10vw;
+	height: 20vw;
+}
+
+.period .dot {
+  width: 2.5vw;
+  height: 2.5vw;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.comma {
+	width: 2.5vw;
+	position: relative;
+}
+
+.letter-comma {
+	width: 10vw;
+	height: 20vw;
+}
+
+.comma .stroke {
+  width: 2.5vw;
+  height: 5vw;
+  background: black;
+  position: absolute;
+  bottom: -2.5vw;
+  left: 0;
+}
+
+.semi-colon {
+	width: 2.5vw;
+	position: relative;
+}
+
+.letter-semi-colon {
+	width: 10vw;
+	height: 20vw;
+}
+
+.semi-colon .stroke {
+  width: 2.5vw;
+  height: 5vw;
+  background: black;
+  position: absolute;
+  bottom: -2.5vw;
+  left: 0;
+}
+
+.semi-colon .dot {
+  width: 2.5vw;
+  height: 2.5vw;
+  background: black;
+  position: absolute;
+  top: 8.8vw;
+  left: 0;
+}
+
+.quotes {
+	width: 10vw;
+	position: relative;
+}
+
+.letter-quotes {
+	width: 10vw;
+	height: 20vw;
+}
+
+.quotes.left-stroke {
+    width: 2.5vw;
+    height: 5vw;
+    background: black;
+    position: absolute;
+    top: -2.5vw;
+    left: 0;
+}
+
+.quotes .right-stroke{
+    width: 2.5vw;
+    height: 5vw;
+    background: black;
+    position: absolute;
+    top: -2.5vw;
+    left: 3.5vw;
+}
+
+.hyphen {
+	width: 5vw;
+	position: relative;
+}
+
+.letter-hyphen {
+	width: 10vw;
+	height: 20vw;
+}
+
+.hyphen .stroke {
+  background: black;
+  height: 2.5vw;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 8.8vw;
+}
+
+.en-dash {
+	width: 8.5vw;
+	position: relative;
+}
+
+.letter-en-dash {
+	width: 10vw;
+	height: 20vw;
+}
+
+.en-dash .stroke {
+  background: black;
+  height: 2.5vw;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 8.74vw;
+}
+
+.em-dash {
+	width: 12.5vw;
+	position: relative;
+}
+
+.letter-em-dash {
+	width: 10vw;
+	height: 20vw;
+}
+
+.em-dash .stroke {
+  background: black;
+  height: 2.5vw;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 8.8vw;
+}

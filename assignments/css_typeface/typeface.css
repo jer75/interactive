@@ -1,18 +1,37 @@
-.letter {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 10vw;
-  height: 20vw;
-  position: relative;
-  margin-right: .5vw;
-  margin-bottom: 8vw;
+.letter-definition {
+	display: none;
 }
 
-.letter-inside {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  align-items: center;
+ .letter {
+  display: inline-block;
+  vertical-align: bottom;
+  height: 20vw;
+  margin-right: .5vw;
+  margin-left: .5vw;
+  margin-bottom: 6vw;
+}
+
+.word {
+  display: inline-block;
+  white-space: nowrap;
+  background: #D5EFE7;
+}
+
+
+.space {
+	width: 5vw;
+	height: 20vw;
+}
+
+.a {
+	width: 10vw;
+	position: relative;
+  background: red;
+}
+
+.letter-a {
+	width: 10vw;
+	height: 20vw;
 }
 
 .a .fill {
@@ -42,6 +61,16 @@
   top: 8.74vw;
 }
 
+.b {
+	width: 10vw;
+	position: relative;
+}
+
+.letter-b {
+	width: 10vw;
+	height: 20vw;
+}
+
 .b .fill {
   width: 10vw;
   height: 56.3%;
@@ -58,6 +87,16 @@
     position: absolute;
     bottom: 0;
     left: 0;
+}
+
+.c {
+	width: 10vw;
+	position: relative;
+}
+
+.letter-c {
+	width: 10vw;
+	height: 20vw;
 }
 
 .c .top {
@@ -86,6 +125,16 @@
   bottom: 0;
 }
 
+.d {
+	width: 10vw;
+	position: relative;
+}
+
+.letter-d {
+	width: 10vw;
+	height: 20vw;
+}
+
 .d .fill {
   width: 10vw;
   height: 56.3%;
@@ -104,6 +153,15 @@
     bottom: 0;
 }
 
+.e {
+	width: 10vw;
+	position: relative;
+}
+
+.letter-e {
+	width: 10vw;
+	height: 20vw;
+}
 .e .fill {
   width: 10vw;
   height: 33%;
@@ -129,6 +187,16 @@
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+.f {
+	width: 7vw;
+	position: relative;
+}
+
+.letter-f {
+	width: 10vw;
+	height: 20vw;
 }
 
 .f .left {
@@ -158,16 +226,15 @@
   left: 0;
 }
 
-.letter.f {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 7vw;
-  height: 20vw;
-  position: relative;
-  margin-right: .5vw;
-  margin-bottom: 8vw;
+.g {
+	width: 10vw;
+	position: relative;
 }
 
+.letter-g {
+	width: 10vw;
+	height: 20vw;
+}
 .g .fill {
   width: 10vw;
   height: 56.3%;
@@ -195,14 +262,14 @@
   bottom: -4.8vw;
 }
 
-.letter.g {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 10vw;
-  height: 20vw;
-  position: relative;
-  margin-right: .5vw;
-  margin-bottom: 8vw;
+.h {
+	width: 10vw;
+	position: relative;
+}
+
+.letter-h {
+	width: 10vw;
+	height: 20vw;
 }
 
 .h .left {
@@ -218,6 +285,9 @@
   background: black;
   height: 2.5vw;
   width: 100%;
+  position: absolute;
+  top: 8.8vw;
+  left: 0;
 }
 
 .h .right {
@@ -229,6 +299,15 @@
     bottom: 0;
 }
 
+.i {
+	width: 2.5vw;
+	position: relative;
+}
+
+.letter-i {
+	width: 10vw;
+	height: 20vw;
+}
 .i .fill {
   width: 2.5vw;
   height: 56.3%;
@@ -247,14 +326,15 @@
   left: 0;
 }
 
-.letter.i {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 2.5vw;
-  height: 20vw;
-  position: relative;
-  margin-right: .5vw;
-  margin-bottom: 8vw;
+.j {
+	width: 2.5vw;
+	position: relative;
+}
+
+.letter-j {
+	width: 10vw;
+	height: 20vw;
+  margin-left: -1vw;
 }
 
 .j .dot {
@@ -278,20 +358,20 @@
 .j .bottom {
   background: black;
   height: 2.5vw;
-  width: 100%;
+  width: 200%;
   position: absolute;
   right: 0;
   bottom: -4.8vw;
 }
 
-.letter.j {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 5vw;
-  height: 20vw;
-  position: relative;
-  margin-left: -2.5vw;
-  margin-bottom: 8vw;
+.k {
+	width: 8vw;
+	position: relative;
+}
+
+.letter-k {
+	width: 10vw;
+	height: 20vw;
 }
 
 .k .left {
@@ -323,16 +403,15 @@
   bottom: 2.8vw;
 }
 
-.letter.k {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 8vw;
-  height: 20vw;
-  position: relative;
-  margin-right: .5vw;
-  margin-bottom: 8vw;
+.l {
+	width: 2.5vw;
+	position: relative;
 }
 
+.letter-l {
+	width: 10vw;
+	height: 20vw;
+}
 .l .stroke {
   background: black;
   width: 2.5vw;
@@ -342,14 +421,14 @@
   bottom: 0;
 }
 
-.letter.l {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 2.5vw;
-  height: 20vw;
-  position: relative;
-  margin-right: .5vw;
-  margin-bottom: 8vw;
+.m {
+	width: 15vw;
+	position: relative;
+}
+
+.letter-m {
+	width: 10vw;
+	height: 20vw;
 }
 
 .m .left {
@@ -365,6 +444,9 @@
   background: black;
   height: 2.5vw;
   width: 100%;
+  position: absolute;
+  top: 8.8vw;
+  left: 0;
 }
 
 .m .right {
@@ -385,14 +467,14 @@
   bottom: 0;
 }
 
-.letter.m {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 15vw;
-  height: 20vw;
-  position: relative;
-  margin-right: .5vw;
-  margin-bottom: 8vw;
+.n {
+	width: 7.5vw;
+	position: relative;
+}
+
+.letter-n {
+	width: 10vw;
+	height: 20vw;
 }
 
 .n .left {
@@ -408,6 +490,9 @@
   background: black;
   height: 2.5vw;
   width: 100%;
+  position: absolute;
+  top: 8.8vw;
+  left: 0;
 }
 
 .n .right {
@@ -419,14 +504,14 @@
     bottom: 0;
 }
 
-.letter.n {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 7.5vw;
-  height: 20vw;
-  position: relative;
-  margin-right: .5vw;
-  margin-bottom: 8vw;
+.o {
+	width: 11.25vw;
+	position: relative;
+}
+
+.letter-o {
+	width: 10vw;
+	height: 20vw;
 }
 
 .o .fill {
@@ -438,14 +523,14 @@
   left: 0;
 }
 
-.letter.o {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 11.25vw;
-  height: 20vw;
-  position: relative;
-  margin-right: .5vw;
-  margin-bottom: 8vw;
+.p {
+	width: 10vw;
+	position: relative;
+}
+
+.letter-p {
+	width: 10vw;
+	height: 20vw;
 }
 
 .p .left {
@@ -466,16 +551,15 @@
   left: 0;
 }
 
-.letter.p {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 10vw;
-  height: 20vw;
-  position: relative;
-  margin-right: .5vw;
-  margin-bottom: 8vw;
+.q {
+	width: 10vw;
+	position: relative;
 }
 
+.letter-q {
+	width: 10vw;
+	height: 20vw;
+}
 .q .right {
     background: black;
     width: 2.5vw;
@@ -494,14 +578,14 @@
   left: 0;
 }
 
-.letter.q {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 10vw;
-  height: 20vw;
-  position: relative;
-  margin-right: .5vw;
-  margin-bottom: 8vw;
+.r {
+	width: 5vw;
+	position: relative;
+}
+
+.letter-r {
+	width: 10vw;
+	height: 20vw;
 }
 
 .r .left {
@@ -517,16 +601,19 @@
   background: black;
   height: 2.5vw;
   width: 100%;
+  position: absolute;
+  top: 8.8vw;
+  left: 0;
 }
 
-.letter.r {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 5vw;
-  height: 20vw;
-  position: relative;
-  margin-right: .5vw;
-  margin-bottom: 8vw;
+.s {
+	width: 8.5vw;
+	position: relative;
+}
+
+.letter-s {
+	width: 10vw;
+	height: 20vw;
 }
 
 .s .top {
@@ -574,14 +661,14 @@
   bottom: 0;
 }
 
-.letter.s {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 8.5vw;
-  height: 20vw;
-  position: relative;
-  margin-right: .5vw;
-  margin-bottom: 8vw;
+.t {
+	width: 7vw;
+	position: relative;
+}
+
+.letter-t {
+	width: 10vw;
+	height: 20vw;
 }
 
 .t .left {
@@ -602,14 +689,14 @@
   left: 0;
 }
 
-.letter.t {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 7vw;
-  height: 20vw;
-  position: relative;
-  margin-right: .5vw;
-  margin-bottom: 8vw;
+.u {
+	width: 7.5vw;
+	position: relative;
+}
+
+.letter-u {
+	width: 10vw;
+	height: 20vw;
 }
 
 .u .left {
@@ -639,14 +726,14 @@
     bottom: 0;
 }
 
-.letter.u {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 7.5vw;
-  height: 20vw;
-  position: relative;
-  margin-right: .5vw;
-  margin-bottom: 8vw;
+.v {
+	width: 9.5vw;
+	position: relative;
+}
+
+.letter-v {
+	width: 10vw;
+	height: 20vw;
 }
 
 .v .left {
@@ -695,17 +782,15 @@
   bottom: 0;
   left: 3.2vw;
 }
-
-.letter.v {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 9.5vw;
-  height: 20vw;
-  position: relative;
-  margin-right: .5vw;
-  margin-bottom: 8vw;
+.w {
+	width: 16.5vw;
+	position: relative;
 }
 
+.letter-w {
+	width: 10vw;
+	height: 20vw;
+}
 .w .left {
   background: black;
   width: 2.5vw;
@@ -791,16 +876,15 @@
   left: 10.15vw;
 }
 
-.letter.w {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 16.5vw;
-  height: 20vw;
-  position: relative;
-  margin-right: .5vw;
-  margin-bottom: 8vw;
+.x {
+	width: 9.5vw;
+	position: relative;
 }
 
+.letter-x {
+	width: 10vw;
+	height: 20vw;
+}
 .x .left-top {
   background: black;
   width: 2.5vw;
@@ -857,16 +941,15 @@
     transform: rotate(55.9deg);
 }
 
-.letter.x {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 9.5vw;
-  height: 20vw;
-  position: relative;
-  margin-right: .5vw;
-  margin-bottom: 8vw;
+.y {
+	width: 9.5vw;
+	position: relative;
 }
 
+.letter-y {
+	width: 10vw;
+	height: 20vw;
+}
 .y .left {
     background: black;
     width: 2.5vw;
@@ -924,14 +1007,14 @@
     transform: rotate(27deg);
 }
 
-.letter.y {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 9.5vw;
-  height: 20vw;
-  position: relative;
-  margin-right: .5vw;
-  margin-bottom: 8vw;
+.z {
+	width: 8.5vw;
+	position: relative;
+}
+
+.letter-z {
+	width: 10vw;
+	height: 20vw;
 }
 
 .z .top {
@@ -962,14 +1045,14 @@
   bottom: 0;
 }
 
-.letter.z {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 8.5vw;
-  height: 20vw;
-  position: relative;
-  margin-right: .5vw;
-  margin-bottom: 8vw;
+.zero {
+	width: 10vw;
+	position: relative;
+}
+
+.letter-zero {
+	width: 10vw;
+	height: 20vw;
 }
 
 .zero .fill {
@@ -981,16 +1064,15 @@
   left: 0;
 }
 
-.letter.zero {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 10vw;
-  height: 20vw;
-  position: relative;
-  margin-right: .5vw;
-  margin-bottom: 8vw;
+.one {
+	width: 10vw;
+	position: relative;
 }
 
+.letter-one {
+	width: 10vw;
+	height: 20vw;
+}
 .one .right {
     background: black;
     width: 2.5vw;
@@ -1018,14 +1100,14 @@
   right: 0;
 }
 
-.letter.one {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 10vw;
-  height: 20vw;
-  position: relative;
-  margin-right: .5vw;
-  margin-bottom: 8vw;
+.two {
+	width: 12.5vw;
+	position: relative;
+}
+
+.letter-two {
+	width: 10vw;
+	height: 20vw;
 }
 
 .two .top {
@@ -1073,14 +1155,14 @@
   bottom: 0;
 }
 
-.letter.two {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 12.5vw;
-  height: 20vw;
-  position: relative;
-  margin-right: .5vw;
-  margin-bottom: 8vw;
+.three {
+	width: 12.5vw;
+	position: relative;
+}
+
+.letter-three {
+	width: 10vw;
+	height: 20vw;
 }
 
 .three .top {
@@ -1128,14 +1210,14 @@
   bottom: 0;
 }
 
-.letter.three {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 12.5vw;
-  height: 20vw;
-  position: relative;
-  margin-right: .5vw;
-  margin-bottom: 8vw;
+.four {
+	width: 12.5vw;
+	position: relative;
+}
+
+.letter-four {
+	width: 10vw;
+	height: 20vw;
 }
 
 .four .right {
@@ -1165,14 +1247,14 @@
   top: 0;
 }
 
-.letter.four {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 12.5vw;
-  height: 20vw;
-  position: relative;
-  margin-right: .5vw;
-  margin-bottom: 8vw;
+.five {
+	width: 12.5vw;
+	position: relative;
+}
+
+.letter-five {
+	width: 10vw;
+	height: 20vw;
 }
 
 .five .top {
@@ -1220,14 +1302,14 @@
   bottom: 0;
 }
 
-.letter.five {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 12.5vw;
-  height: 20vw;
-  position: relative;
-  margin-right: .5vw;
-  margin-bottom: 8vw;
+.six {
+	width: 12.5vw;
+	position: relative;
+}
+
+.letter-six {
+	width: 10vw;
+	height: 20vw;
 }
 
 .six .fill {
@@ -1248,14 +1330,14 @@
     left: 0;
 }
 
-.letter.six {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 12.5vw;
-  height: 20vw;
-  position: relative;
-  margin-right: .5vw;
-  margin-bottom: 8vw;
+.seven {
+	width: 12.5vw;
+	position: relative;
+}
+
+.letter-seven {
+	width: 10vw;
+	height: 20vw;
 }
 
 .seven .top {
@@ -1286,14 +1368,14 @@
   top: 0;
 }
 
-.letter.seven {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 12.5vw;
-  height: 20vw;
-  position: relative;
-  margin-right: .5vw;
-  margin-bottom: 8vw;
+.eight {
+	width: 12.5vw;
+	position: relative;
+}
+
+.letter-eight {
+	width: 10vw;
+	height: 20vw;
 }
 
 .eight .fill {
@@ -1305,14 +1387,14 @@
   left: 0;
 }
 
-.letter.eight {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 12.5vw;
-  height: 20vw;
-  position: relative;
-  margin-right: .5vw;
-  margin-bottom: 8vw;
+.nine {
+	width: 12.5vw;
+	position: relative;
+}
+
+.letter-nine {
+	width: 10vw;
+	height: 20vw;
 }
 
 .nine .fill {
@@ -1333,14 +1415,14 @@
     right: 0;
 }
 
-.letter.nine {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 12.5vw;
-  height: 20vw;
-  position: relative;
-  margin-right: .5vw;
-  margin-bottom: 8vw;
+.question {
+	width: 12.5vw;
+	position: relative;
+}
+
+.letter-question {
+	width: 10vw;
+	height: 20vw;
 }
 
 .question .top {
@@ -1388,14 +1470,14 @@
   left: 1.9vw;
 }
 
-.letter.question {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 12.5vw;
-  height: 20vw;
-  position: relative;
-  margin-right: .5vw;
-  margin-bottom: 8vw;
+.exclamation {
+	width: 2.5vw;
+	position: relative;
+}
+
+.letter-exclamation {
+	width: 10vw;
+	height: 20vw;
 }
 
 .exclamation .stroke {
@@ -1416,14 +1498,14 @@
   left: 0;
 }
 
-.letter.exclamation {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 2.5vw;
-  height: 20vw;
-  position: relative;
-  margin-right: .5vw;
-  margin-bottom: 8vw;
+.period {
+	width: 2.5vw;
+	position: relative;
+}
+
+.letter-period {
+	width: 10vw;
+	height: 20vw;
 }
 
 .period .dot {
@@ -1435,61 +1517,41 @@
   left: 0;
 }
 
-.letter.period {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 2.5vw;
-  height: 20vw;
-  position: relative;
-  margin-right: .5vw;
-  margin-bottom: 8vw;
+.comma {
+	width: 2.5vw;
+	position: relative;
 }
 
-.coma .stroke {
-    background: black;
-    width: 2.5vw;
-    height: 21%;
-    position: absolute;
-    left: -0.8vw;
-    bottom: -3.4vw;
-    transform: rotate(29deg);
+.letter-comma {
+	width: 10vw;
+	height: 20vw;
 }
 
-.coma .stroke-top {
+.comma .stroke {
   width: 2.5vw;
-  height: 2.5vw;
+  height: 5vw;
   background: black;
   position: absolute;
-  bottom: 0;
+  bottom: -2.5vw;
   left: 0;
 }
 
-.letter.coma {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 2.5vw;
-  height: 20vw;
-  position: relative;
-  margin-right: .5vw;
-  margin-bottom: 8vw;
+.semi-colon {
+	width: 2.5vw;
+	position: relative;
+}
+
+.letter-semi-colon {
+	width: 10vw;
+	height: 20vw;
 }
 
 .semi-colon .stroke {
-    background: black;
-    width: 2.5vw;
-    height: 21%;
-    position: absolute;
-    left: -0.8vw;
-    bottom: -3.4vw;
-    transform: rotate(29deg);
-}
-
-.semi-colon .stroke-top {
   width: 2.5vw;
-  height: 2.5vw;
+  height: 5vw;
   background: black;
   position: absolute;
-  bottom: 0;
+  bottom: -2.5vw;
   left: 0;
 }
 
@@ -1498,66 +1560,46 @@
   height: 2.5vw;
   background: black;
   position: absolute;
-  top: 8.74vw;
+  top: 8.8vw;
   left: 0;
 }
 
-.letter.semi-colon {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 2.5vw;
-  height: 20vw;
-  position: relative;
-  margin-right: .5vw;
-  margin-bottom: 8vw;
+.quotes {
+	width: 10vw;
+	position: relative;
 }
 
-.left-quotation .left-stroke {
-    background: black;
-    width: 2.5vw;
-    height: 21%;
-    position: absolute;
-    left: .69vw;
-    top: 0.4vw;
-    transform: rotate(25deg);
+.letter-quotes {
+	width: 10vw;
+	height: 20vw;
 }
 
-.left-quotation .left-stroke-top {
+.quotes.left-stroke {
     width: 2.5vw;
-    height: 2.5vw;
+    height: 5vw;
     background: black;
     position: absolute;
-    top: 3.82vw;
+    top: -2.5vw;
     left: 0;
 }
 
-.left-quotation .right-stroke {
-    background: black;
+.quotes .right-stroke{
     width: 2.5vw;
-    height: 21%;
-    position: absolute;
-    left: 4.29vw;
-    top: 0.4vw;
-    transform: rotate(25deg);
-}
-
-.left-quotation .right-stroke-top {
-    width: 2.5vw;
-    height: 2.5vw;
+    height: 5vw;
     background: black;
     position: absolute;
-    top: 3.82vw;
+    top: -2.5vw;
     left: 3.5vw;
 }
 
-.letter.left-quotation {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 7vw;
-  height: 20vw;
-  position: relative;
-  margin-right: .5vw;
-  margin-bottom: 8vw;
+.hyphen {
+	width: 5vw;
+	position: relative;
+}
+
+.letter-hyphen {
+	width: 10vw;
+	height: 20vw;
 }
 
 .hyphen .stroke {
@@ -1566,17 +1608,17 @@
   width: 100%;
   position: absolute;
   right: 0;
-  top: 8.74vw;
+  top: 8.8vw;
 }
 
-.letter.hyphen {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 5vw;
-  height: 20vw;
-  position: relative;
-  margin-right: .5vw;
-  margin-bottom: 8vw;
+.en-dash {
+	width: 8.5vw;
+	position: relative;
+}
+
+.letter-en-dash {
+	width: 10vw;
+	height: 20vw;
 }
 
 .en-dash .stroke {
@@ -1588,14 +1630,14 @@
   top: 8.74vw;
 }
 
-.letter.en-dash {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 8.5vw;
-  height: 20vw;
-  position: relative;
-  margin-right: .5vw;
-  margin-bottom: 8vw;
+.em-dash {
+	width: 12.5vw;
+	position: relative;
+}
+
+.letter-em-dash {
+	width: 10vw;
+	height: 20vw;
 }
 
 .em-dash .stroke {
@@ -1604,63 +1646,5 @@
   width: 100%;
   position: absolute;
   right: 0;
-  top: 8.74vw;
-}
-
-.letter.em-dash {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 12.5vw;
-  height: 20vw;
-  position: relative;
-  margin-right: .5vw;
-  margin-bottom: 8vw;
-}
-
-.right-quotation .left-stroke {
-    background: black;
-    width: 2.5vw;
-    height: 21%;
-    position: absolute;
-    left: -1vw;
-    top: .7vw;
-    transform: rotate(145deg);
-}
-
-.right-quotation .left-stroke-top {
-    width: 2.5vw;
-    height: 2.5vw;
-    background: black;
-    position: absolute;
-    top: 3.82vw;
-    left: 0;
-}
-
-.right-quotation .right-stroke {
-    background: black;
-    width: 2.5vw;
-    height: 21%;
-    position: absolute;
-    left: 2.55vw;
-    top: 0.7vw;
-    transform: rotate(145deg);
-}
-
-.right-quotation .right-stroke-top {
-    width: 2.5vw;
-    height: 2.5vw;
-    background: black;
-    position: absolute;
-    top: 3.82vw;
-    left: 3.5vw;
-}
-
-.letter.right-quotation {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 7vw;
-  height: 20vw;
-  position: relative;
-  margin-right: .5vw;
-  margin-bottom: 8vw;
+  top: 8.8vw;
 }

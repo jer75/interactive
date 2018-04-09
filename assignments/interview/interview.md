@@ -12,7 +12,7 @@ Derek: Hey! My name is Derek like Jose said. I'd like to thank Jose for having m
 
 **J: Let's jump right into it then. What have you been up to for the last month?**
 
-D: The last month? Let's see…well this is my last semester here, right? So, I've really just been relaxing because I finished all my senior requirements last semester. So, uh…I've just been enjoying my classes. And then these past two weeks were spring break, so, uh, the first week I spent in Cancun with some of my suite mates—and we had a lot of fun-and then I went home to Buffalo, New York. 
+D: The last month? Let's see…well this is my last semester here, right? So, I've really just been relaxing because I finished all my senior requirements last semester. So, uh…I've just been enjoying my classes. And then these past two weeks were spring break, so, uh, the first week I spent in Cancun with some of my suite mates—and we had a lot of fun-and then I went home to Buffalo, New York.
 
 I just got back Wednesday. Been hanging out with the suite mates and catching up on homework-things like that.
 
@@ -28,7 +28,7 @@ D: Yeah, it's probably when we went to Chichen Itza. We woke up early and caught
 
 D: Totally! No, but yeah-it was a lot of fun. But, how did you like staying in New Haven?
 
-**J: It was good. I like having my own space, so it was nice to have the suite to myself. It was very quiet. I got some work done on some personal projects, but otherwise just kind of hung out and watched a lot of movies. **
+**J: It was good. I like having my own space, so it was nice to have the suite to myself. It was very quiet. I got some work done on some personal projects, but otherwise just kind of hung out and watched a lot of movies.**
 
 D: That's dope. I know you like watching movies and Netflix series, so you must've had a good time, right?
 
@@ -97,8 +97,8 @@ D: SWEET.
 
 D: Similar reasons to you actually. I was actually introduced to BROCKHAMPTON late last year so SWEET was one of the first songs I was introduced too. Plus, all the members have high-quality performances in the song-it's hard not to like it really.
 
-**J: Agreed.**
+**J: Agreed.
 
-Well that's all we have time for today. Thanks so much for sitting down to talk. It was nice catching up and chatting. I feel like we've just really scratched the surface of your love for music. But we do have to go, so is there anything you'd like to say before we wrap things up?
+Well that's all we have time for today. Thanks so much for sitting down to talk. It was nice catching up and chatting. I feel like we've just really scratched the surface of your love for music. But we do have to go, so is there anything you'd like to say before we wrap things up?**
 
 D: Thanks for having me on your show and don't forget to like, comment, subscribe. Thanks for watching!
